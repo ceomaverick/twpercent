@@ -1,0 +1,71 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { Reveal } from "@/components/Reveal";
+
+const TeamLeader = () => {
+  const skills = [
+    { name: "STORY TELLING", value: 90, color: "bg-[#3b3b3b]" },
+    { name: "DESIGN", value: 85, color: "bg-[#222]" },
+    { name: "WEB DEVELOPMENT", value: 75, color: "bg-[#414141]" },
+    { name: "STRATEGY", value: 95, color: "bg-[#222]" },
+  ];
+
+  return (
+    <section className="py-[100px] bg-white overflow-hidden">
+      <div className="legacy-container">
+        <Reveal direction="up" delay={0.2} className="flex flex-wrap -mx-[15px] items-center">
+          <div className="w-full md:w-5/12 px-[15px] mb-[60px] md:mb-0">
+            <div className="bg-[#fff] bg-[url('/img/team/avi.jpg')] bg-cover bg-top min-h-[420px] md:mr-[25px] shadow-sm"></div>
+          </div>
+          <div className="w-full md:w-7/12 px-[15px]">
+            <div className="md:ml-[25px]">
+              <h3 className="text-black text-[24px] font-[500] pb-[20px] leading-[1.3] text-[#111] uppercase tracking-wide">
+                Avinash Deshmukh | <span className="text-[#999] font-[300] normal-case">Creative Lead and Tech Nerd</span>
+              </h3>
+              <p className="pb-[20px]">
+                A creative nerd with 10+ years’ of experience in advertising. He
+                majors in ideation and creative writing, but also likes to tinker in
+                design once in a while. Currently, he leads the team at
+                TwentyPercent. <br />
+                <br /> Check his complete profile at{" "}
+                <a
+                  href="http://avinashdeshmukh.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-black font-medium hover:underline transition-all"
+                >
+                  www.avinashdeshmukh.com
+                </a>
+              </p>
+
+              <div className="space-y-[10px] mt-[30px]">
+                {skills.map((skill, index) => (
+                  <div key={index} className="h-[35px] bg-[#eee] w-full relative">
+                    <motion.div
+                      className={`h-full ${skill.color} absolute left-0 top-0 flex items-center`}
+                      initial={{ width: 0 }}
+                      whileInView={{ width: `${skill.value}%` }}
+                      viewport={{ once: false }}
+                      transition={{ duration: 1.5, ease: "easeOut", delay: 0.5 + index * 0.1 }}
+                      aria-valuenow={skill.value}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                    >
+                      <span className="w-full px-[20px] text-white text-[12px] font-bold tracking-[2px] uppercase whitespace-nowrap flex justify-between items-center">
+                        <span>{skill.name}</span>
+                        <i className="not-italic opacity-80">{skill.value}%</i>
+                      </span>
+                    </motion.div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </Reveal>
+      </div>
+    </section>
+  );
+};
+
+export default TeamLeader;

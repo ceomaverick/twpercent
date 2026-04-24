@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+  --font-work-sans: var(--font-work-sans);
+  
+  --animate-rotateplane: sk-rotateplane 1.2s infinite ease-in-out;
+
+  @keyframes sk-rotateplane {
+    0% { transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+    50% { transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+    100% { transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); }
+  }
+}
+
+@layer base {
+  body {
+    @apply m-0 p-0 font-work-sans antialiased bg-white text-[#222];
+  }
+
+  /* USER SPEC: 16px/18px, weight 300, leading 1.6 */
+  section p {
+    @apply text-[16px] md:text-[18px] font-[300] leading-[1.6];
+  }
+  
+  /* USER SPEC: 24px, weight 500, leading 1.3 */
+  h2, h3, h4 {
+    @apply text-[24px] font-[500] leading-[1.3] uppercase;
+  }
+
+  h1 {
+    @apply uppercase leading-[1.1];
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply inline-block text-[12px] tracking-[4px] text-[#aaa] uppercase font-[500] mb-[10px];
+  }
+
+  /* Letter Roll Over Animation */
+  .link { @apply outline-0 no-underline relative inline-block font-[900] leading-[1] text-[#9e9ba4]; }
+  .link--yaku { @apply uppercase overflow-hidden pb-[10px]; }
+  .link--yaku span {
+    @apply inline-block relative transition-all duration-500 text-[#9e9ba4];
+    transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+  }
+  .link--yaku:hover span {
+    @apply text-white;
+    transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+  }
+
+  /* Button Animation */
+  .button { @apply inline-block px-[2em] py-[1em] border-0 bg-transparent text-inherit align-middle relative z-[1]; }
+  .button--round-s { @apply rounded-[5px]; }
+  .button--moema {
+    @apply px-[3em] py-[1.5em] rounded-[50px] bg-[#222] text-white transition-colors duration-300;
+  }
+  .button--moema::before {
+    content: '';
+    @apply absolute top-[-20px] left-[-20px] bottom-[-20px] right-[-20px] bg-inherit rounded-[50px] z-[-1] opacity-40 transition-transform duration-300;
+    transform: scale3d(0.8, 0.5, 1);
+  }
+  .button--moema:hover {
+    @apply bg-black text-[#eceff1] transition-colors duration-100 delay-300;
+    animation: anim-moema-1 0.3s forwards;
+  }
+  .button--moema:hover::before {
+    animation: anim-moema-2 0.3s 0.3s forwards;
+  }
+
+  @keyframes anim-moema-1 {
+    60% { transform: scale3d(0.8, 0.8, 1); }
+    85% { transform: scale3d(1.1, 1.1, 1); }
+    100% { transform: scale3d(1, 1, 1); }
+  }
+  @keyframes anim-moema-2 {
+    to { opacity: 0; transform: scale3d(1, 1, 1); }
+  }
+}
+
+/* USER PROVIDED CONTAINER CSS - FIXED ORDER */
+.container, .legacy-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container, .legacy-container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container, .legacy-container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container, .legacy-container {
+        width: 1170px;
+    }
+}

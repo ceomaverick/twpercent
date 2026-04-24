@@ -1,0 +1,56 @@
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+
+const FloatingNav = () => {
+  const pathname = usePathname();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Show only on /work pages once verified
+  if (!mounted || !pathname.startsWith("/work")) return null;
+
+  const categories = [
+    { name: "Identity", href: "/work/logo" },
+    { name: "Brochures", href: "/work/brochure" },
+    { name: "Web", href: "/work/websites" },
+    { name: "Print", href: "/work/print" },
+    { name: "Collateral", href: "/work/collateral" },
+    { name: "Social", href: "/work/social" },
+    { name: "Exploits", href: "/work/exploits" },
+  ];
+
+  return (
+    <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[999999999] pointer-events-none flex justify-center w-full md:w-auto px-4">
+      <nav className="pointer-events-auto flex items-center bg-white/60 backdrop-blur-xl backdrop-saturate-150 border border-white/40 px-2 py-2 rounded-full shadow-[0_20px_50px_rgba(0,0,0,0.15)] ring-1 ring-black/5">
+        <div className="flex items-center gap-1 md:gap-2">
+          {categories.map((cat) => {
+            const isActive = pathname === cat.href;
+            return (
+              <Link
+                key={cat.href}
+                href={cat.href}
+                className={`
+                  relative px-4 md:px-6 py-2 rounded-full text-[10px] md:text-xs font-medium uppercase tracking-[1px] transition-all duration-300
+                  ${isActive 
+                    ? "bg-black text-white shadow-lg shadow-black/20" 
+                    : "text-neutral-800 hover:bg-black/5 hover:text-black"
+                  }
+                `}
+              >
+                {cat.name}
+              </Link>
+            );
+          })}
+        </div>
+      </nav>
+    </div>
+  );
+};
+
+export default FloatingNav;

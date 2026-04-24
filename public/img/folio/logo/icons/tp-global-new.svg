@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4724 4724"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+<style type="text/css">
+   <![CDATA[
+    .str2 {stroke:#f8ac01;stroke-width:42}
+    .str3 {stroke: #f8ac01;stroke-width:42}
+    .str0 {stroke:#f8ac01;stroke-width:42}
+    .str1 {stroke:#000;stroke-width:20}
+    .fil0 {fill:none}
+    .fil1 {fill:#f8ac01;}
+    .outcircle {-webkit-animation: spin 4s linear infinite; animation: spin 4s linear infinite; }
+    .dotc {-webkit-animation: spin2 4s linear infinite; animation: spin2 4s linear infinite; }
+    
+    @-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        transform-origin: 50% 50%;
+             }
+             100% {
+                 -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+                 -ms-transform: rotate(360deg);  /* IE 9 */
+                 transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+                    transform-origin: 50% 50%;
+             }
+         }
+         @keyframes spin {
+             0%   {
+                 -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+                 -ms-transform: rotate(0deg);  /* IE 9 */
+                 transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+                    transform-origin: 50% 50%;
+             }
+             100% {
+                 -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+                 -ms-transform: rotate(360deg);  /* IE 9 */
+                 transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+                transform-origin: 50% 50%;
+             }
+         }
+ @-webkit-keyframes spin2 {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        transform-origin: -430% -800%;
+             }
+             100% {
+                 -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+                 -ms-transform: rotate(360deg);  /* IE 9 */
+                 transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+                    transform-origin: -430% -800%;
+             }
+         }
+         @keyframes spin2 {
+             0%   {
+                 -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+                 -ms-transform: rotate(0deg);  /* IE 9 */
+                 transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+                    transform-origin: -430% -800%;
+             }
+             100% {
+                 -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+                 -ms-transform: rotate(360deg);  /* IE 9 */
+                 transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+                transform-origin: -430% -800%;
+             }
+         }
+        .line1 {-webkit-animation: blink 2s linear infinite; animation: blink 2s linear infinite; }
+        .line2 {-webkit-animation: blink 1s linear infinite; animation: blink 1s linear infinite; }
+        .woby {-webkit-animation: wobble 2s linear infinite; animation: wobble 2s linear infinite; }
+      
+        .bplus {-webkit-animation: blink 1500ms linear infinite; animation: blink 1500ms linear infinite; }
+        
+@-webkit-keyframes blink {
+    0%   { opacity:0; }
+    100% { opcaity:1; }
+}
+ @keyframes blink {
+    0%   { opacity:0; }
+    100% { opcaity:1; }
+         }
+
+@-webkit-keyframes wobble {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes wobble {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" width="4724" height="4724"/>
+  <path class="fil0 str0 outcircle" d="M1913 488c144,-34 295,-53 449,-53 574,0 1089,251 1442,649m386 668c64,192 99,397 99,610 0,635 -306,1197 -780,1549m-698 326c-144,34 -294,52 -449,52 -574,0 -1089,-251 -1442,-649m-386 -667c-64,-192 -99,-397 -99,-611 0,-634 307,-1197 780,-1548"/>
+  <circle class="fil0 str1" cx="2362" cy="2362" r="1547"/>
+  <polygon class="fil1 bplus" points="642,828 642,777 591,777 591,755 642,755 642,705 664,705 664,755 715,755 715,777 664,777 664,828 "/>
+  <polygon class="fil1 bplus" points="424,653 424,541 312,541 312,494 424,494 424,382 471,382 471,494 583,494 583,541 471,541 471,653 "/>
+  <line class="fil0 str0" x1="368" y1="4234" x2="952" y2= "4234" />
+  <line class="fil0 str0" x1="368" y1="4443" x2="1218" y2= "4443" />
+  <line class="fil0 str0" x1="4035" y1="517" x2="4435" y2= "517" />
+  <circle class="fil0 str0" cx="2362" cy="2362" r="1167"/>
+  <circle class="fil1 dotc" cx="3297" cy="4178" r="106"/>
+  <polygon class="fil1" points="4294,4169 4204,4092 4115,4014 4115,4169 4115,4324 4204,4247 "/>
+ <g id="_2197455770080">
+   <path class="fil1" d="M2375 2278c59,0 89,37 105,37 14,0 32,-18 48,3 -18,2 -24,11 -38,11 -32,0 -40,-12 -62,-23 -21,-11 -42,-12 -66,-18 3,-5 4,-10 13,-10zm-64 -480c29,0 53,-2 72,9 27,16 47,18 47,42 0,21 -53,5 -61,3 12,-19 21,-31 -22,-39 -22,-3 -26,-2 -33,-11 -1,0 -1,-2 -2,-2 0,0 0,-1 -1,-2zm88 -64c25,0 91,14 111,27 19,13 20,17 25,43 5,24 19,26 20,51 -28,0 -42,-13 -60,-25 -10,-6 -17,-10 -26,-18 -15,-12 -32,-26 -51,-33 -16,-6 -23,-2 -38,-6 -32,-7 0,-39 19,-39zm-98 44c17,-25 16,-38 51,-38 23,0 3,24 -5,30 -13,9 -24,8 -46,8zm-243 189c-5,-19 -7,-23 -7,-47 0,-18 0,-36 0,-55 -34,-23 -58,9 -88,17 13,-19 33,-31 54,-44 72,-48 74,-64 140,-38 11,4 28,10 39,13 25,4 5,-5 4,-22 31,-3 40,-5 63,15 24,20 27,19 69,19 -21,31 4,18 -22,33 -17,10 -29,15 -33,28 5,7 72,52 92,54 16,-31 0,-42 0,-75 30,0 25,3 45,13 19,9 22,-6 47,6 14,7 63,43 70,52 -15,10 -35,18 -41,38 12,16 21,9 31,23 -21,31 -40,15 -44,14 -10,14 -10,5 -17,24l-4 10c-8,9 -20,5 -29,24 -22,46 18,37 -24,78 -33,32 -27,29 -14,74 8,28 -8,14 -18,4 -66,-69 -206,-13 -160,78 30,59 73,-15 107,-8 0,40 -5,27 -7,47 40,3 47,26 52,53 5,32 20,47 53,51 38,5 42,6 77,-20 61,-47 84,-29 149,4 25,12 55,16 78,27 37,17 4,54 45,60 48,8 117,-7 107,51 -4,21 -21,54 -31,74 -63,116 -85,103 -119,148 -37,50 -88,89 -143,121 -32,19 -37,22 -55,53l-20 34c12,-6 44,-12 60,-18 396,-125 583,-610 338,-979 -238,-359 -778,-402 -1065,-22 -150,199 -175,505 -18,740 45,67 95,119 158,167 93,70 235,126 361,125 24,0 58,2 80,-1 19,-2 53,-9 72,-9 -29,-44 -5,-98 15,-137 71,-142 -12,-122 -44,-175 -6,-11 -9,-18 -16,-28 -7,-9 -14,-17 -22,-26 -44,-52 18,-120 22,-132 12,-40 -29,-50 -35,-48 -15,3 -5,16 -30,5 -11,-5 -20,-12 -30,-18 -30,-18 -19,-38 -46,-46 -54,-15 -81,-27 -134,-48 -63,-25 -43,-52 -57,-78 -9,-18 -29,-34 -38,-54 -12,-25 -4,-24 -17,-29 3,12 6,26 9,37 4,12 10,23 11,37 -10,-7 -13,-19 -21,-30 -14,-18 -3,-12 -9,-38 -13,-50 -58,-92 -26,-161 28,-62 12,-77 36,-65z"/>
+   <polygon class="fil2" points="2058,1967 2058,1970 2062,1967 "/>
+  </g>
+ </g>
+</svg>
