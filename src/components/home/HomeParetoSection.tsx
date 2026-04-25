@@ -44,20 +44,19 @@ const HomeParetoSection = () => {
           
           <div className="w-full max-w-[1000px] mx-auto px-[15px]">
             <SharedReveal direction="up" delay={0.4}>
-              <p className="mt-[2.5rem] mb-[30px] text-[#222] max-w-[1000px] mx-auto">
-                Ever wondered why 20% of the world population holds 80% of its
-                wealth? Why 20% of your customers bring you 80% of the profits?
-                Or, why 20% of your time leads to 80% of your happiness? The
-                answer is hidden in Pareto's Principle. 20% represents the amount
-                of time, skill and effort required to make a business tick. It is
-                fundamental to business efficiency and success.{" "}
+              <p className="mt-[2.5rem] mb-[30px] text-[#222] max-w-[1000px] mx-auto text-[18px] leading-[1.6]">
+                Stop fighting for the 80% that doesn't matter. Most businesses drown in 
+                "creative clutter"—wasting budgets on vanity metrics and noise. We 
+                specialize in identifying your high-velocity levers: the critical 20% of 
+                strategy and design that generates 80% of your growth. We don't just 
+                design; we engineer efficiency.
               </p>
               {!isExpanded && (
                 <button 
                   className="px-[16px] py-[9px] bg-[#222] text-white border border-[#222] rounded-full text-[15px] font-normal tracking-[2px] hover:bg-transparent hover:text-[#222] transition-all duration-300 uppercase"
                   onClick={() => setIsExpanded(true)}
                 >
-                  KNOW MORE
+                  DISCOVER YOUR LEVERAGE
                 </button>
               )}
             </SharedReveal>
@@ -74,22 +73,22 @@ const HomeParetoSection = () => {
                   <div className="flex flex-wrap mt-[50px] -mx-[15px]">
                     {[
                       {
-                        title: "Increase Website Traffic",
-                        desc: "The ultimate goal of any business is to attract more eyeballs and generate more leads. Our team will analyze your website data and determine the most valuable leads using the 80/20 principle. We help you improve your traffic and generate quality leads."
+                        title: "Lead Density",
+                        desc: "Volume is a vanity metric. We ignore the 'clicks' and focus on the 20% of high-intent visitors who actually convert. We optimize for lead density, not just traffic."
                       },
                       {
-                        title: "Search Engine Optimization",
-                        desc: "If you are a small business, hiring an SEO expert is a waste of money. You need quick and effective steps to get your SEO strategy working. We can suggest your company just enough SEO strategy to give you 80% results."
+                        title: "Strategic SEO",
+                        desc: "Stop chasing a thousand keywords. We dominate the 20% of search terms that own 80% of the market intent. We deliver dominance where it actually moves the needle."
                       },
                       {
-                        title: "Content Marketing",
-                        desc: "Most companies follow a schedule mentioned on various websites. They think that posting content regularly will help them get more leads. No. You need to understand whether the content is working or not. We will help you determine the most effective content strategy."
+                        title: "High-Octane Content",
+                        desc: "Most content is noise. We engineer the 20% of messaging that resonates with your customer's core needs. Pure signal, zero clutter, maximum retention."
                       }
                     ].map((item, i) => (
                       <div key={i} className="w-full md:w-1/3 px-[15px] mb-[40px] md:mb-0">
                         <div className="text-left">
-                          <h4 className="text-[16px] font-[500] mb-[15px] uppercase tracking-[1px]">{item.title}</h4>
-                          <p className="text-[#666]">
+                          <h4 className="text-[16px] font-medium mb-[15px] uppercase tracking-[1px] text-black">{item.title}</h4>
+                          <p className="text-[#666] leading-[1.5]">
                             {item.desc}
                           </p>
                         </div>

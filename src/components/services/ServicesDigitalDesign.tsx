@@ -22,10 +22,10 @@ const ServicesDigitalDesign = () => {
                   <rect width="40" height="4" style={{ fill: "#5d5d5d" }} />
                 </svg>
               </div>
-              <p>
-                Websites ensure that your brand is accessible by anyone, anywhere.
-                No longer confined to a desktop computer, your website is an
-                important digital marketing tool.{" "}
+              <p className="text-[17px] leading-[1.7] text-[#444]">
+                Accessibility is the baseline; conversion is the goal. We engineer 
+                high-velocity digital interfaces that transform passive browsers 
+                into active brand advocates across every device.
               </p>
             </SharedReveal>
           </div>
@@ -45,10 +45,10 @@ const ServicesDigitalDesign = () => {
         
         <div className="flex flex-wrap -mx-[15px] mt-[40px] md:mt-[60px]">
           {[
-            { title: "SOCIAL MEDIA MARKETING", desc: "If you want to build and develop relationships with customers, increase brand loyalty and drive traffic to your website then social media marketing is a key marketing tool for you." },
-            { title: "WEBSITE DESIGN", desc: "Websites ensure that your brand is accessible by anyone, anywhere. No longer confined to a desktop computer, your website is an important digital marketing tool." },
-            { title: "SEARCH ENGINE OPTIMIZATION", desc: "What is the point of having a website if you cannot be found? TwentyPercent offers a Search Engine Optimization (SEO) service, that aims to improve your organic search engine rankings." },
-            { title: "GOOGLE/ FACEBOOK ADVERTISING", desc: "TwentyPercent has the in-depth knowledge and tools to help you make the most of your website. We can help drive more traffic to your website and grow your business online." }
+            { title: "SOCIAL MEDIA MARKETING", desc: "We move beyond 'likes' to build high-velocity engagement. We identify the 20% of content formats that drive 80% of your audience interaction and brand loyalty." },
+            { title: "WEBSITE DESIGN", desc: "We don't just build sites; we architect digital sales engines. Our designs focus on the high-intent user journey to maximize conversion with minimal friction." },
+            { title: "SEARCH ENGINE OPTIMIZATION", desc: "Dominance over Visibility. We focus on the 20% of high-intent search terms that own 80% of your market's conversion potential, ensuring you move the needle." },
+            { title: "PERFORMANCE ADVERTISING", desc: "Stop wasting budget on broad reach. We engineer surgical Google and Facebook campaigns that target the 20% of high-value prospects responsible for your growth." }
           ].map((card, i) => (
             <div key={i} className={`w-full md:w-5/12 px-[15px] mb-[40px] ${i % 2 !== 0 ? "md:ml-[16.666%]" : ""}`}>
               <SharedReveal direction={i < 2 ? "down" : "up"} delay={0.4 + i * 0.1}>

@@ -13,10 +13,10 @@ import SharedReveal from "@/components/shared/SharedReveal";
 
 const AboutTeamLeader = () => {
   const skills = [
-    { name: "STORY TELLING", value: 90, color: "bg-[#3b3b3b]" },
-    { name: "DESIGN", value: 85, color: "bg-[#222]" },
-    { name: "WEB DEVELOPMENT", value: 75, color: "bg-[#414141]" },
-    { name: "STRATEGY", value: 95, color: "bg-[#222]" },
+    { name: "NARRATIVE ARCHITECTURE", value: 90, color: "bg-[#3b3b3b]" },
+    { name: "VISUAL LOGIC", value: 85, color: "bg-[#222]" },
+    { name: "DIGITAL INFRASTRUCTURE", value: 75, color: "bg-[#414141]" },
+    { name: "MARKET LEVERAGE", value: 95, color: "bg-[#222]" },
   ];
 
   return (
@@ -40,22 +40,14 @@ const AboutTeamLeader = () => {
           <div className="w-full md:w-7/12 px-[15px]">
             <div className="md:ml-[25px]">
               <h2 className="text-black text-[20px] md:text-[24px] font-[500] pb-[20px] leading-[1.3] text-[#111] uppercase tracking-wide">
-                Avinash Deshmukh | <span className="text-[#999] font-[300] normal-case text-[0.75em]">Creative Lead and Tech Nerd</span>
+                Avinash Deshmukh | <span className="text-[#999] font-[300] normal-case text-[0.75em]">Creative Lead & Tech Nerd</span>
               </h2>
-              <p className="pb-[20px]">
-                A creative nerd with 10+ years’ of experience in advertising. He
-                majors in ideation and creative writing, but also likes to tinker in
-                design once in a while. Currently, he leads the team at
-                TwentyPercent. <br />
-                <br /> Check his complete profile at{" "}
-                <a
-                  href="http://avinashdeshmukh.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-black font-medium hover:underline transition-all"
-                >
-                  www.avinashdeshmukh.com
-                </a>
+              <p className="pb-[20px] text-[17px] leading-[1.7] text-[#444]">
+                Architect of Impact. With over a decade of navigating high-stakes 
+                advertising, Avinash specializes in isolating the strategic narratives 
+                that standard campaigns miss. He doesn't just "tinker" in design; he 
+                engineers visual ecosystems built for technical precision and immediate 
+                market authority.
               </p>
 
               <div className="space-y-[10px] mt-[30px]">

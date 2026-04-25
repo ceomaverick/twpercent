@@ -46,7 +46,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
               client: "Pacific Habitats India Pvt Ltd",
               project: "Corporate Identity Design",
               details:
-                "A generic brand does little to shine a light on a new idea. Yet with persistence and some amount of luck, you can crack the most stubborn nut. Pacific Habitats offered a similar challenge. We created this identity practically out of nothing. It has a whole story behind it, but in the nutshell the logo is a monogram of letters PHI.",
+                "We engineered a monogrammatic anchor for a brand emerging from zero. The PHI identity is a masterclass in market-entry precision—turning a new idea into an immediate industry legacy.",
             },
           },
         ],
@@ -68,7 +68,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
               client: "Vibrant Holiday Destinations",
               project: "Corporate Identity Design",
               details:
-                "It helps when your client is a young fellow having an open mind and passion for his work. I was fortunate to work for vibrant holidays to create their identity. The logo is a reflection of the state of the person on a holiday. The swoosh also creates a shape V – which makes it unique and beautiful.",
+                "We captured the high-velocity energy of motion. The identity uses a strategic 'Swoosh-V' geometry to communicate freedom and reliability—the essential levers for building immediate trust in the travel sector.",
             },
           },
           { type: "image", image: "/img/folio/logo/vibrant-master.jpg" },
@@ -89,7 +89,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
               client: "Future Networks",
               project: "Project Identity Design",
               details:
-                "Doing a corporate identity for technology client is always fulfilling. We wanted to drive home “the-connection-with-future” idea. Apart from the circuit board and the modern font, the shape resembles a portable device form – it is both the backbone of future electronics and also the core business of our client.",
+                "Identity as an Interface. For Future Networks, we synthesized circuit-board precision with a modern device silhouette. This isn't just a logo; it's a visual manifestation of the client's core technological backbone.",
             },
           },
         ],
@@ -104,7 +104,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
               client: "IQ Residences",
               project: "Corporate Identity Design",
               details:
-                "This is the most exciting project we had the opportunity to work on. It began with a powerful name “IQ” for smart homes project. Followed by an identity that was talk of the town. We designed office stationery, office uniforms, office interiors, and print, digital and outdoor campaigns around the identity",
+                "Architecting Market Dominance. We transformed 'IQ' from a name into a regional powerhouse, engineering a comprehensive visual system that dominated physical, digital, and outdoor landscapes.",
             },
           },
           { type: "image", image: "/img/folio/logo/iq-wall.jpg" },
@@ -124,7 +124,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
               client: "Mixed Bag",
               project: "Logo, App Logo and Icons.",
               details:
-                "Most of the clients don’t have the budget or the inclination to create or rework their corporate identity campaigns. Which means we have to make good of the bits and pieces that come our way. Our goal is to create a unique and meaningful logo design– not something you can copy from the Internet.",
+                "Efficiency in Craft. Even with modular requirements, we refuse to settle for the generic. Our goal is the surgical creation of unique, meaningful marks that exert maximum brand influence from the first point of engagement.",
             },
           },
         ],
@@ -167,7 +167,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               details:
-                "GIZ is a German multinational involved in rural development in India. They wanted us to design a report that matched the international design standards, especially European ones. The task was to create a fresh and clean layout that spoke to both national and international audiences. We created a beautiful layout while strictly adhering to the guidelines.",
+                "GIZ demanded international excellence for rural development in India. We engineered a high-velocity layout that synchronized German precision with local resonance. The result was a fresh, clean, and authoritative report that strictly adhered to global brand guidelines while capturing national interest.",
             },
           },
         ],
@@ -194,7 +194,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               details:
-                "AgriPro Industries is not a typical food EXIM organisation. It is a community-led food chain expert. The client wanted that the difference shows in every piece of communication. Since food catalogue is the most consumed marketing literature in the business, we decided to create a visually-inspiring food catalogue that would give a coffee table book a run for money, yet be incredibly informative.",
+                "AgriPro is a community-led food chain disruptor. We moved beyond typical EXIM catalogs to engineer a visually-inspiring coffee table book. This high-octane literature delivers deep technical information through a premium aesthetic, proving that industrial food chain experts can dominate through world-class design.",
             },
           },
         ],
@@ -220,7 +220,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               details:
-                "Godrej Properties is a demanding client. One has to be creative on the clock. We managed to push some of our better work for three Godrej Properties across the country. Here we have featured one of the brochures we designed for Godrej Property in Bangaluru. We will be linking the Godrej Horizon Brochure soon.",
+                "Godrej Properties requires high-velocity creativity on a massive scale. We engineered three distinct project brochures across India, including this Bengaluru feature. Each layout captures the elite status of the property, delivering sophisticated market positioning under tight deadlines to match Godrej's demanding corporate standards.",
             },
           },
         ],
@@ -248,7 +248,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               details:
-                "This was a small but unique project at Kemps Corner, Mumbai. The brief was to design a brochure that looked important and sophisticated. We took “glass facade” as our inspiration and captured playful glass reflections in our layout. The brochure turned out to be better than expected.",
+                "This boutique project at Kemps Corner required immediate sophistication. We isolated the 'glass facade' as a strategic design lever, capturing playful reflections to engineer a high-end visual experience. The brochure exceeded expectations, transforming a simple brief into a potent tool for high-net-worth engagement.",
             },
           },
         ],
@@ -272,7 +272,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               details:
-                "GIZ is a German multinational involved in rural development in India. They wanted us to design a report that matched the international design standards, especially European ones. The task was to create a fresh and clean layout that spoke to both national and international audiences. We created a beautiful layout while strictly adhering to the guidelines.",
+                "GIZ demanded international excellence for rural development in India. We engineered a high-velocity layout that synchronized German precision with local resonance. The result was a fresh, clean, and authoritative report that strictly adhered to global brand guidelines while capturing national interest.",
             },
           },
         ],
@@ -298,7 +298,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               details:
-                "This was a small but unique project at Kemps Corner, Mumbai. The brief was to design a brochure that looked important and sophisticated. We took “glass facade” as our inspiration and captured playful glass reflections in our layout. The brochure turned out to be better than expected.",
+                "For BlueWater Ventures, we engineered an authoritative brochure built for the Lucknow market. By isolating key architectural reflections, we created a sophisticated layout that dominates the physical marketing landscape. The result is a high-velocity collateral piece that delivers clarity and builds immediate developer trust.",
             },
           },
         ],
@@ -351,14 +351,14 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               details:
-                "We designed the entire corporate identity for the client. We focused on creating a clean, professional web presence that accurately represents the clinic's brand and services while ensuring high visibility through SEO and social media marketing.",
+                "Where medical authority meets human intuition. We distilled the Fahrenheit brand into a refined digital experience that feels as personal as a consultation. Every interaction is calibrated to build patient trust through a signature, airy aesthetic that breathes life into the clinical space.",
             },
           },
         ],
         gallery: [
-          { src: "/img/folio/web/fahrenheit-clinic-01.jpg", className: "col-md-12" },
-          { src: "/img/folio/web/fahrenheit-clinic-02.jpg", className: "col-md-6" },
-          { src: "/img/folio/web/fahrenheit-clinic-03.jpg", className: "col-md-6" },
+          { src: "/img/folio/web/fahrenheit-clinic-01.jpg", className: "col-sm-12" },
+          { src: "/img/folio/web/fahrenheit-clinic-02.jpg", className: "col-sm-6" },
+          { src: "/img/folio/web/fahrenheit-clinic-03.jpg", className: "col-sm-6" },
         ],
       },
       {
@@ -375,11 +375,11 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details: "Evolving an industry anchor. We translated the physical weight of real estate development into a high-density digital presence. The interface uses generous whitespace and monumental imagery to communicate the definitive legacy of Pacific Habitats to a modern investment audience.",
             },
           },
         ],
-        gallery: [{ src: "/img/folio/web/pacific-habitats-01.jpg", className: "col-md-12" }],
+        gallery: [{ src: "/img/folio/web/pacific-habitats-01.jpg", className: "col-sm-12" }],
       },
       {
         introColumns: [
@@ -395,11 +395,11 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details: "Digital Architecture for Intelligent Living. For IQ, we crafted a site that feels as responsive as the homes they build. The UX is an atmospheric extension of their technology—using a dark-mode palette and crisp transitions to immerse visitors in the future of domestic luxury.",
             },
           },
         ],
-        gallery: [{ src: "/img/folio/web/iq-web.jpg", className: "col-md-12" }],
+        gallery: [{ src: "/img/folio/web/iq-web.jpg", className: "col-sm-12" }],
       },
       {
         isOdd: true,
@@ -416,11 +416,12 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "Capturing the 'European Fresh' aesthetic. For Raghu Thomas, we stepped away from standard photography portfolios to architect a minimalist, high-clarity digital gallery. The interface acts as a silent frame—using generous whitespace and a rhythmic grid to ensure his unique visual perspective remains the singular focus.",
             },
           },
         ],
-        gallery: [{ src: "/img/folio/web/raghu_web.jpg", className: "col-md-12" }],
+        gallery: [{ src: "/img/folio/web/raghu_web.jpg", className: "col-sm-12" }],
       },
       {
         introColumns: [
@@ -436,11 +437,11 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details: "Visualizing the global farm-to-table journey. We replaced dry data with a rich, narrative-driven hub for AgriPro. The site acts as a definitive gateway for their community-led supply chain, using an editorial layout to elevate industrial transparency into a premium brand asset.",
             },
           },
         ],
-        gallery: [{ src: "/img/folio/web/agri-web.jpg", className: "col-md-12" }],
+        gallery: [{ src: "/img/folio/web/agri-web.jpg", className: "col-sm-12" }],
       },
       {
         isOdd: true,
@@ -457,11 +458,12 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "Engineering immediate market authority. For Radix Infra, we bridged the gap from zero digital presence to a dominant industry showcase. We bypassed typical corporate templates to deliver a high-impact interface that redefined their stature—proving that even a new entrant can project a veteran's legacy through strategic design.",
             },
           },
         ],
-        gallery: [{ src: "/img/folio/web/radix-web.jpg", className: "col-md-12" }],
+        gallery: [{ src: "/img/folio/web/radix-web.jpg", className: "col-sm-12" }],
       },
       {
         introColumns: [
@@ -477,11 +479,11 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details: "Transforming regional presence into a cohesive digital ecosystem built for long-term scalability and market engagement.",
             },
           },
         ],
-        gallery: [{ src: "/img/folio/web/nav-web.jpg", className: "col-md-12" }],
+        gallery: [{ src: "/img/folio/web/nav-web.jpg", className: "col-sm-12" }],
       },
     ],
   },
@@ -495,15 +497,16 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             type: "text",
             className: "col-sm-6",
             content: {
-              client: "Monarch",
-              project: "Newspaper Ads",
+              client: "Monarch Group",
+              project: "Renaissance Luxury Campaign",
             },
           },
           {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "Signaling Royalty. We engineered the 'Renaissance' campaign for Monarch, using A-lister Kareena Kapoor as a high-velocity lever to dominate the luxury real estate segment. The print execution bypassed standard lifestyle templates to deliver an aura of immediate heritage and elite status in a competitive market.",
             },
           },
         ],
@@ -517,14 +520,15 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               client: "IQ Residences",
-              project: "Newspaper Ads",
+              project: "Smart-Home Revolution Campaign",
             },
           },
           {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "Challenging the Luxury Status Quo. For IQ, we introduced the revolutionary concept of Smart Homes to a traditional market. The newspaper campaign utilized strategic whitespace to create a sense of 'Visual Calm' amidst media clutter, reflecting the effortless intelligence of the residences themselves.",
             },
           },
         ],
@@ -542,14 +546,15 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               client: "Nirmal Bang",
-              project: "Print Magazine Ads",
+              project: "Positive Wealth Connection Campaign",
             },
           },
           {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "Establishing Deeper Financial Connections. We bypassed typical data-heavy financial ads to connect investment decisions with life's positive moments. By running this narrative-driven campaign in key financial journals, we reached investors at a deeper emotional level, building trust through human resonance.",
             },
           },
         ],
@@ -566,15 +571,16 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             type: "text",
             className: "col-sm-6",
             content: {
-              client: "Nirmal Bang",
-              project: "Print Magazine Ads",
+              client: "Godrej Properties",
+              project: "Emotional Heritage Campaign",
             },
           },
           {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "Heart-of-Mumbai Resonance. For Godrej, the lever was Emotional Heritage. We engineered a print campaign that focused on making a premium brand feel intimate and personal. The creative bypassed standard corporate polish to forge a lasting emotional connection with a discerning Mumbai audience.",
             },
           },
         ],
@@ -591,14 +597,15 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               client: "Doon IT City",
-              project: "Newspaper Ads",
+              project: "Silicon Valley Aesthetic Regional Launch",
             },
           },
           {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "The Future of the North. We brought the 'Silicon Valley' aesthetic to a regional regional market, engineering a digital-first visual system for a physical landscape. The campaign signaled a definitive shift in the region's stature, positioning Doon IT City as the epicenter of a new technological era.",
             },
           },
         ],
@@ -620,14 +627,15 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               client: "IQ Residences",
-              project: "Web Design",
+              project: "Bespoke Marketing Collateral",
             },
           },
           {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "High-Impact Physical Ecosystems. For IQ, collateral wasn't just stationery—it was a tangible extension of their brand's intelligence. We engineered a cohesive visual system across every touchpoint, from golf invites to seasonal gifting, ensuring that each piece exerted a premium influence on the recipient's brand perception.",
             },
           },
         ],
@@ -653,14 +661,15 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               client: "TameKnot Data Consultancy",
-              project: "Social Media Campaign",
+              project: "Digital Intent Campaign",
             },
           },
           {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "Clarity over Noise. For TameKnot, we engineered a high-velocity social media system that transformed complex data consulting into sharp, intent-driven visual narratives. By focusing on the 20% of messaging that drives 80% of professional engagement, we built a digital presence that signals immediate authority in the data landscape.",
             },
           },
         ],
@@ -688,14 +697,15 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               client: "Lexus Cars",
-              project: "Magazine Ads",
+              project: "Aggressive Masculine Campaign",
             },
           },
           {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "Provocative Displacement. We engineered an aggressive, masculine campaign for Lexus that rejected standard automotive luxury. By using jarring, philosophical headlines—'It is dangerous to be a man,' 'A woman is a big lie'—we built a high-velocity brand aura that signals raw power and unfiltered dominance in the city landscape.",
             },
           },
         ],
@@ -713,14 +723,15 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               client: "Tata Aria",
-              project: "Magazine Ads",
+              project: "Safety Narrative Campaign",
             },
           },
           {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "Neil French Style Narrative. For Tata Aria, we tackled the 'Safety vs. Fate' paradox. With the headline 'Engineers design the car, God gets all the credit,' we engineered a provocative tribute to structural integrity—reminding drivers that survival is a triumph of engineering precision, delivered with a sophisticated, world-class copy edge.",
             },
           },
         ],
@@ -737,14 +748,15 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             className: "col-sm-6",
             content: {
               client: "Parker Pens",
-              project: "Print Magazine Ads",
+              project: "Precision Wordplay Campaign",
             },
           },
           {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client.",
+              details:
+                "The Strategic Ink. For Parker, we bypassed standard utility to focus on the 'Reason to Write.' Through high-velocity wordplay, we engineered a campaign that targets the precision of the mind as much as the hand—positioning Parker as the definitive lever for high-impact communication for writers of every discipline.",
             },
           },
         ],

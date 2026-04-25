@@ -24,13 +24,12 @@ const HomeAgencyIntroduction = () => {
                 TWENTYPERCENT<sup className="text-[0.4em] align-top">™</sup> <br className="hidden md:block" /> A highly effective branding and
                 digital marketing agency.
               </h2>
-              <p>
-                Meet a professional agency that believes in delivering effective
-                results. We have developed a methodology to help businesses
-                identify, understand and apply the core principle of effectiveness
-                in their design and advertising. As a result, they're able to
-                streamline their design and advertising activities and save a lot
-                of money and effort in the process.
+              <p className="text-[17px] leading-[1.7] text-[#444]">
+                Most agencies sell creativity. We sell effectiveness. Our proprietary 
+                methodology isolates the core levers of your brand’s performance, 
+                stripping away the noise that standard advertising creates. The 
+                result is a streamlined, high-velocity operation that captures 
+                maximum market share with significantly less waste.
               </p>
             </SharedReveal>
           </div>

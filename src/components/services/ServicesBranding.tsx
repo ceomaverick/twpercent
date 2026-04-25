@@ -22,10 +22,10 @@ const ServicesBranding = () => {
                   <rect width="40" height="4" style={{ fill: "#5d5d5d" }} />
                 </svg>
               </div>
-              <p className="mb-[20px]">
-                TwentyPercent helps you in shaping and developing powerful brands.
-                We create positive stories for your brand and communicate it to
-                your customer in a meaningful way.
+              <p className="text-[17px] leading-[1.7] text-[#444] mb-[20px]">
+                We don't just shape brands; we architect market authority. Our strategy 
+                isolates the unique 20% of your brand’s DNA that creates 80% of your 
+                competitive advantage and communicates it with absolute clarity.
               </p>
             </SharedReveal>
           </div>
@@ -43,21 +43,21 @@ const ServicesBranding = () => {
           
           <div className="w-full md:w-5/12 px-[15px] mb-[40px] mt-[40px]">
             <SharedReveal direction="down" delay={0.4}>
-              <h4 className="text-[18px] font-[500] mb-[15px] uppercase text-[#222]">BRANDING & LOGO DESIGN</h4>
+              <h4 className="text-[18px] font-medium mb-[15px] uppercase text-[#222]">BRANDING & LOGO DESIGN</h4>
               <p>
-                Whether you want to build a new brand identity or extend the one
-                you already have, we can create a brand new look or creatively
-                build on your style.
+                Identity is your first lever. We create potent visual monograms and 
+                marks that are built to disrupt, ensuring your brand stands out in 
+                saturated markets with zero ambiguity.
               </p>
             </SharedReveal>
           </div>
           <div className="w-full md:w-5/12 md:ml-[16.666%] px-[15px] mb-[40px] mt-[40px]">
             <SharedReveal direction="down" delay={0.5}>
-              <h4 className="text-[18px] font-[500] mb-[15px] uppercase text-[#222]">BRAND ANALYSIS & STRATEGY</h4>
+              <h4 className="text-[18px] font-medium mb-[15px] uppercase text-[#222]">BRAND ANALYSIS & STRATEGY</h4>
               <p>
-                Developing a brand strategy is vital in understanding how
-                effective you are as a brand. It breaks down the elements of your
-                brand to give it a personality.
+                Most strategies are static. Ours is high-velocity. We break down your 
+                market position to identify exactly where your brand can exert the 
+                most influence for the highest return on effort.
               </p>
             </SharedReveal>
           </div>

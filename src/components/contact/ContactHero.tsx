@@ -79,9 +79,9 @@ const ContactHero = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-[25px] md:text-[45px] text-white font-[100] mb-[30px] uppercase leading-[1.2]"
             >
-              <span className="eyebrow block mb-[10px]">Contact Advertising Agency</span>
-              let's make your digital branding <br className="hidden md:block" />
-              and marketing effective.
+              <span className="eyebrow block mb-[10px]">Strategic Consultation</span>
+              Convert Intent into Impact. <br className="hidden md:block" />
+              Let’s calibrate your brand for effectiveness.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 50 }}
@@ -90,7 +90,7 @@ const ContactHero = () => {
               transition={{ duration: 0.8, delay: 1 }}
               className="text-white uppercase tracking-[2px] text-[14px] md:text-[18px] font-[300]"
             >
-              setting up a meeting is the first step
+              High-velocity results begin with a clinical conversation.
             </motion.p>
           </div>
         </div>

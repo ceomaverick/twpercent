@@ -59,7 +59,7 @@ const LocationInfo = () => {
                 <h4 className="text-[20px] font-[500] uppercase tracking-[3px] mb-6">Pune Design Studio</h4>
                 <div className="space-y-6">
                   <div>
-                    <h5 className="text-[12px] font-bold uppercase tracking-[2px] text-white/60 mb-2">Creative Hub</h5>
+                    <h5 className="text-[12px] font-bold uppercase tracking-[2px] text-white/60 mb-2">The Engine Room</h5>
                     <p className="text-[18px] font-[300] leading-relaxed">
                       TWENTYPERCENT STUDIO <br />
                       Blue Ridge, Phase 1, <br />
