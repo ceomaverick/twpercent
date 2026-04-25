@@ -39,12 +39,10 @@ export default function ServicesPage() {
                 <Image
                   src="/img/serv/hero.png"
                   alt="Digital Marketing Hero"
-                  width={750}
-                  height={500}
+                  width={800}
+                  height={600}
                   className="mx-auto h-auto max-w-full"
-                  loading="lazy"
-                  decoding="async"
-                  sizes="(max-width: 768px) 100vw, 750px"
+                  sizes="(max-width: 768px) 100vw, 800px"
                 />
               </Reveal>
             </div>
@@ -79,12 +77,10 @@ export default function ServicesPage() {
                 <Image
                   src="/img/serv/page.png"
                   alt="Graphic Design Hero"
-                  width={650}
-                  height={400}
+                  width={800}
+                  height={600}
                   className="mx-auto h-auto max-w-full md:mt-[-40px]"
-                  loading="lazy"
-                  decoding="async"
-                  sizes="(max-width: 768px) 100vw, 650px"
+                  sizes="(max-width: 768px) 100vw, 800px"
                 />
               </Reveal>
             </div>

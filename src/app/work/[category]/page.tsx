@@ -103,13 +103,11 @@ export default async function CategoryPage({
                         <Image
                           src={col.image}
                           alt="Portfolio Image"
-                          width={600}
-                          height={400}
+                          width={800}
+                          height={600}
                           className="block max-w-full h-auto"
                           style={{ height: 'auto' }}
-                          loading="lazy"
-                          decoding="async"
-                          sizes="(max-width: 768px) 100vw, 50vw"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
                         />
                       )}
                       {col.type === "text" && col.content && (
@@ -179,9 +177,7 @@ export default async function CategoryPage({
                         height={800}
                         className="block max-w-full h-auto"
                         style={{ height: 'auto' }}
-                        loading="lazy"
-                        decoding="async"
-                        sizes="(max-width: 768px) 100vw, 50vw"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
                       />
                     </Reveal>
                   </div>

@@ -28,7 +28,7 @@ const PortfolioItem = ({
             src={imageSrc}
             alt={title}
             fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 800px"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
             className="object-cover transition-opacity duration-500 group-hover:opacity-30"
             loading="lazy"
             decoding="async"
