@@ -226,7 +226,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
         ],
         gallery: [
           { src: "/img/folio/brochure/godrej-brochure-01.jpg", className: "col-sm-12" },
-          { src: "/img/folio/brochure/g3.jpg", className: "col-sm-6" },
+          { src: "/img/folio/brochure/godrej-brochure-03.jpg", className: "col-sm-6" },
           { src: "/img/folio/brochure/godrej-brochure-04.jpg", className: "col-sm-6" },
           { src: "/img/folio/brochure/godrej-brochure-05.jpg", className: "col-sm-6" },
           { src: "/img/folio/brochure/godrej-brochure-06.jpg", className: "col-sm-6" },
