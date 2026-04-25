@@ -7,8 +7,8 @@ import PitchSection from "@/components/home/PitchSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Effective Advertising Agency in Mumbai | TwentyPercent Designs",
-  description: "Boost your business with TwentyPercent Designs, a leading advertising agency in Mumbai specializing in web design, branding, and creative marketing strategies.",
+  title: "Effective Advertising Agency in Mumbai | TwentyPercent",
+  description: "Boost your business with TwentyPercent Designs, Mumbai's leading agency for web design, branding, and creative marketing. Achieve maximum results with ease.",
 };
 
 export default function Home() {

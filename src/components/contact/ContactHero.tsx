@@ -42,7 +42,7 @@ const ContactHero = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: false }}
       transition={{ duration: 0.8 }}
-      className="relative text-center w-full overflow-hidden"
+      className="relative text-center w-full overflow-hidden pt-[56px] md:pt-[77px]"
     >
       <div className="absolute inset-0 z-0">
         <Image
@@ -50,12 +50,14 @@ const ContactHero = () => {
           alt="Contact - TwentyPercent Designs"
           fill
           priority
+          loading="eager"
+          sizes="100vw"
           fetchPriority="high"
           className="object-cover"
         />
       </div>
       
-      <div className="legacy-container relative z-10 min-h-[450px] md:min-h-[600px] flex items-center justify-center">
+      <div className="legacy-container relative z-10 min-h-[450px] md:min-h-[480px] flex items-center justify-center">
         {init && (
           <div className="absolute inset-0 z-[-1]">
             <Particles id="tsparticles" options={particlesOptions} className="w-full h-full" />

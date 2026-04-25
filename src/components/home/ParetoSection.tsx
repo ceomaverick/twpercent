@@ -20,11 +20,12 @@ const ParetoSection = () => {
                 width={200}
                 height={50}
                 className="inline-block w-[200px] h-auto"
+                decoding="async"
               />
-              <h3 className="text-black text-[24px] font-[500] uppercase leading-[1.3] mt-[3rem]">
+              <h2 className="text-black text-[24px] font-[500] uppercase leading-[1.3] mt-[3rem]">
                 Not just a clever name. <br className="hidden md:block" />
                 But a strategic operating principle.
-              </h3>
+              </h2>
 
               <div className="mt-[20px]">
                 <svg width="40" height="4" className="mx-auto">

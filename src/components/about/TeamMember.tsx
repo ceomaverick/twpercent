@@ -47,8 +47,8 @@ const TeamMember = ({
       {/* Content Column */}
       <div className={`w-full md:w-7/12 px-[15px] ${isReversed ? "md:order-first" : "md:order-last"}`}>
         <Reveal direction="up" delay={0.3} className="bg-white p-[30px] md:p-[60px] h-full flex flex-col justify-center shadow-sm">
-          <h3 className="text-black text-[24px] font-[500] pb-[20px] leading-[1.3] uppercase tracking-wide">
-            {name} | <span className="text-[#999] font-[300] normal-case">{role}</span>
+          <h3 className="text-black text-[20px] md:text-[24px] font-[500] pb-[20px] leading-[1.3] uppercase tracking-wide">
+            {name} | <span className="text-[#999] font-[300] normal-case text-[0.75em]">{role}</span>
           </h3>
           <p className="pb-[40px] text-[#444]">{bio}</p>
           
@@ -87,9 +87,9 @@ const TeamMember = ({
                         ></motion.div>
                       </div>
 
-                      <div className="relative z-20 text-[14px] font-bold">{skill.value}%</div>
+                      <div className="relative z-20 text-[14px] font-medium">{skill.value}%</div>
                     </div>
-                    <h5 className="text-[11px] font-bold uppercase tracking-wider text-center">{skill.name}</h5>
+                    <h5 className="text-[11px] font-medium uppercase tracking-wider text-center">{skill.name}</h5>
                   </Reveal>
                 </div>
               );

@@ -32,7 +32,9 @@ const Navbar = () => {
               width={150}
               height={60}
               priority
+              decoding="async"
               className="w-[120px] md:w-[150px] h-auto"
+              style={{ height: 'auto' }}
             />
           </Link>
         </div>

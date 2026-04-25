@@ -28,7 +28,10 @@ const PortfolioItem = ({
             src={imageSrc}
             alt={title}
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 800px"
             className="object-cover transition-opacity duration-500 group-hover:opacity-30"
+            loading="lazy"
+            decoding="async"
           />
           <Link 
             href={href}
@@ -39,7 +42,10 @@ const PortfolioItem = ({
                 src="/img/svg/circle.svg"
                 alt="View Project"
                 fill
+                sizes="(max-width: 768px) 80px, 96px"
                 className="object-contain"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </Link>

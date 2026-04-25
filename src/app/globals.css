@@ -39,7 +39,7 @@
 
   /* Letter Roll Over Animation */
   .link { @apply outline-0 no-underline relative inline-block font-[900] leading-[1] text-[#9e9ba4]; }
-  .link--yaku { @apply uppercase overflow-hidden pb-[10px]; }
+  .link--yaku { @apply uppercase overflow-hidden pb-[10px] text-[35px] md:text-[50px] font-[900] tracking-[2px]; }
   .link--yaku span {
     @apply inline-block relative transition-all duration-500 text-[#9e9ba4];
     transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
@@ -75,6 +75,16 @@
   }
   @keyframes anim-moema-2 {
     to { opacity: 0; transform: scale3d(1, 1, 1); }
+  }
+
+  .member-one {
+    background-image: url('/img/team/second.jpg');
+  }
+  .member-two {
+    background-image: url('/img/team/third.jpg');
+  }
+  .member-four {
+    background-image: url('/img/team/fourth.jpg');
   }
 }
 

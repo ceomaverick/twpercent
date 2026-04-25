@@ -199,10 +199,10 @@ export const portfolioData: Record<string, PortfolioCategory> = {
           },
         ],
         gallery: [
-          { src: "/graphix/portfolio/brochures/a01.jpg", className: "col-md-12" },
-          { src: "/graphix/portfolio/brochures/a02.jpg", className: "col-md-12" },
-          { src: "/graphix/portfolio/brochures/a03.jpg", className: "col-md-12" },
-          { src: "/graphix/portfolio/brochures/a04.jpg", className: "col-md-12" },
+          { src: "/graphix/portfolio/brochures/agripro-brochure-01.jpg", className: "col-md-12" },
+          { src: "/graphix/portfolio/brochures/agripro-brochure-02.jpg", className: "col-md-12" },
+          { src: "/graphix/portfolio/brochures/agripro-brochure-03.jpg", className: "col-md-12" },
+          { src: "/graphix/portfolio/brochures/agripro-brochure-04.jpg", className: "col-md-12" },
         ],
       },
       {
@@ -225,11 +225,11 @@ export const portfolioData: Record<string, PortfolioCategory> = {
           },
         ],
         gallery: [
-          { src: "/img/folio/brochure/g1.jpg", className: "col-sm-12" },
+          { src: "/img/folio/brochure/godrej-brochure-01.jpg", className: "col-sm-12" },
           { src: "/img/folio/brochure/g3.jpg", className: "col-sm-6" },
-          { src: "/img/folio/brochure/g4.jpg", className: "col-sm-6" },
-          { src: "/img/folio/brochure/g5.jpg", className: "col-sm-6" },
-          { src: "/img/folio/brochure/g6.jpg", className: "col-sm-6" },
+          { src: "/img/folio/brochure/godrej-brochure-04.jpg", className: "col-sm-6" },
+          { src: "/img/folio/brochure/godrej-brochure-05.jpg", className: "col-sm-6" },
+          { src: "/img/folio/brochure/godrej-brochure-06.jpg", className: "col-sm-6" },
         ],
       },
       {
@@ -253,8 +253,8 @@ export const portfolioData: Record<string, PortfolioCategory> = {
           },
         ],
         gallery: [
-          { src: "/img/folio/brochure/k1.jpg", className: "col-sm-6" },
-          { src: "/img/folio/brochure/k2.jpg", className: "col-sm-6" },
+          { src: "/img/folio/brochure/kemps-shoppe-01.jpg", className: "col-sm-6" },
+          { src: "/img/folio/brochure/kemps-shoppe-02.jpg", className: "col-sm-6" },
         ],
       },
       {
@@ -321,6 +321,27 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             type: "text",
             className: "col-sm-6",
             content: {
+              client: "Isthetique (Medical Concierge, Turkey)",
+              project: "Digital Strategy & Web Design",
+            },
+          },
+          {
+            type: "text",
+            className: "col-sm-6",
+            content: {
+              details:
+                "To disrupt the cluttered Turkish cosmetic surgery market, we moved away from clinical clichés. We engineered a high-velocity digital experience centered around a bespoke 'Medical Turquoise' palette—a strategic crossover between sterile precision and the calming Aegean Sea. This modern, high-speed interface was specifically designed to build immediate trust with a discerning global audience.",
+            },
+          },
+        ],
+        gallery: [{ src: "/img/folio/web/isthetique.webp", className: "col-md-12" }],
+      },
+      {
+        introColumns: [
+          {
+            type: "text",
+            className: "col-sm-6",
+            content: {
               client: "Fahrenheit Clinic, Annandale.",
               project: "Web Design, SEO and SMM.",
             },
@@ -335,9 +356,9 @@ export const portfolioData: Record<string, PortfolioCategory> = {
           },
         ],
         gallery: [
-          { src: "/img/folio/web/f11.jpg", className: "col-md-12" },
-          { src: "/img/folio/web/f5.jpg", className: "col-md-6" },
-          { src: "/img/folio/web/f2.jpg", className: "col-md-6" },
+          { src: "/img/folio/web/fahrenheit-clinic-01.jpg", className: "col-md-12" },
+          { src: "/img/folio/web/fahrenheit-clinic-02.jpg", className: "col-md-6" },
+          { src: "/img/folio/web/fahrenheit-clinic-03.jpg", className: "col-md-6" },
         ],
       },
       {
@@ -358,7 +379,7 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             },
           },
         ],
-        gallery: [{ src: "/img/folio/web/p11.jpg", className: "col-md-12" }],
+        gallery: [{ src: "/img/folio/web/pacific-habitats-01.jpg", className: "col-md-12" }],
       },
       {
         introColumns: [
@@ -533,9 +554,9 @@ export const portfolioData: Record<string, PortfolioCategory> = {
           },
         ],
         gallery: [
-          { src: "/img/folio/print/n2.jpg", className: "col-sm-4" },
-          { src: "/img/folio/print/n1.jpg", className: "col-sm-4" },
-          { src: "/img/folio/print/n3.jpg", className: "col-sm-4" },
+          { src: "/img/folio/print/nirmal-bang-print-02.jpg", className: "col-sm-4" },
+          { src: "/img/folio/print/nirmal-bang-print-01.jpg", className: "col-sm-4" },
+          { src: "/img/folio/print/nirmal-bang-print-03.jpg", className: "col-sm-4" },
         ],
       },
       {
@@ -558,9 +579,9 @@ export const portfolioData: Record<string, PortfolioCategory> = {
           },
         ],
         gallery: [
-          { src: "/img/folio/print/g1.jpg", className: "col-sm-4" },
-          { src: "/img/folio/print/g2.jpg", className: "col-sm-4" },
-          { src: "/img/folio/print/g3.jpg", className: "col-sm-4" },
+          { src: "/img/folio/print/godrej-print-ad-01.jpg", className: "col-sm-4" },
+          { src: "/img/folio/print/godrej-print-ad-02.jpg", className: "col-sm-4" },
+          { src: "/img/folio/print/godrej-print-ad-03.jpg", className: "col-sm-4" },
         ],
       },
       {
@@ -606,23 +627,17 @@ export const portfolioData: Record<string, PortfolioCategory> = {
             type: "text",
             className: "col-sm-6",
             content: {
-              details: "We designed the entire corporate identity for the client. We designed the entire corporate identity for the client. We designed the entire corporate identity for the client. We designed the entire corporate identity for the client. We designed the entire corporate identity for the client. We designed the entire corporate identity for the client.",
+              details: "We designed the entire corporate identity for the client.",
             },
           },
         ],
         gallery: [
-          { src: "/img/folio/col/iq-golf.jpg", className: "col-sm-12 s-t30" },
+          { src: "/img/folio/col/iq-golf.jpg", className: "col-sm-12" },
           { src: "/img/folio/col/iq-inv.jpg", className: "col-sm-6" },
           { src: "/img/folio/col/iq-gilf-inv.jpg", className: "col-sm-6" },
           { src: "/img/folio/col/iq-christ.jpg", className: "col-sm-12" },
           { src: "/img/folio/col/iq-dus.jpg", className: "col-sm-6" },
           { src: "/img/folio/col/iq-diwali.jpg", className: "col-sm-6" },
-          { src: "/img/folio/col/nm-leaf-1.jpg", className: "col-sm-12" },
-          { src: "/img/folio/col/nm-leaf-2.jpg", className: "col-sm-12" },
-          { src: "/img/folio/col/post1.jpg", className: "col-sm-6" },
-          { src: "/img/folio/col/post2.jpg", className: "col-sm-6" },
-          { src: "/img/folio/col/post3.jpg", className: "col-sm-6" },
-          { src: "/img/folio/col/post4.jpg", className: "col-sm-6" },
         ],
       },
     ],
@@ -650,14 +665,14 @@ export const portfolioData: Record<string, PortfolioCategory> = {
           },
         ],
         gallery: [
-          { src: "/img/folio/social/post-one.jpg", className: "col-sm-6" },
-          { src: "/img/folio/social/post-two.jpg", className: "col-sm-6" },
-          { src: "/img/folio/social/post-three.jpg", className: "col-sm-6" },
-          { src: "/img/folio/social/post-four.jpg", className: "col-sm-6" },
-          { src: "/img/folio/social/post-five.jpg", className: "col-sm-6" },
-          { src: "/img/folio/social/post-six.jpg", className: "col-sm-6" },
-          { src: "/img/folio/social/post-seven.jpg", className: "col-sm-6" },
-          { src: "/img/folio/social/post-eight.jpg", className: "col-sm-6" },
+          { src: "/img/folio/social/tameknot-social-01.jpg", className: "col-sm-6" },
+          { src: "/img/folio/social/tameknot-social-02.jpg", className: "col-sm-6" },
+          { src: "/img/folio/social/tameknot-social-03.jpg", className: "col-sm-6" },
+          { src: "/img/folio/social/tameknot-social-04.jpg", className: "col-sm-6" },
+          { src: "/img/folio/social/tameknot-social-05.jpg", className: "col-sm-6" },
+          { src: "/img/folio/social/tameknot-social-06.jpg", className: "col-sm-6" },
+          { src: "/img/folio/social/tameknot-social-07.jpg", className: "col-sm-6" },
+          { src: "/img/folio/social/tameknot-social-08.jpg", className: "col-sm-6" },
         ],
       },
     ],
@@ -685,9 +700,9 @@ export const portfolioData: Record<string, PortfolioCategory> = {
           },
         ],
         gallery: [
-          { src: "/img/folio/exploits/lexus-1.jpg", className: "col-sm-4" },
-          { src: "/img/folio/exploits/lexus-2.jpg", className: "col-sm-4" },
-          { src: "/img/folio/exploits/lexus-3.jpg", className: "col-sm-4" },
+          { src: "/img/folio/exploits/lexus-proactive-ad-01.jpg", className: "col-sm-4" },
+          { src: "/img/folio/exploits/lexus-proactive-ad-02.jpg", className: "col-sm-4" },
+          { src: "/img/folio/exploits/lexus-proactive-ad-03.jpg", className: "col-sm-4" },
         ],
       },
       {

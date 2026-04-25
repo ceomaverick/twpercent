@@ -13,10 +13,10 @@ const AgencyIntroduction = () => {
           
           <div className="w-full md:w-1/2">
             <Reveal direction="up" delay={0.3} className="px-[15px] py-[6rem] md:pl-[6rem] md:pr-0">
-              <h3 className="text-black text-[24px] font-[500] uppercase leading-[1.3] mb-[2rem] mt-[3rem]">
+              <h2 className="text-black text-[24px] font-[500] uppercase leading-[1.3] mb-[2rem] mt-[3rem]">
                 TWENTYPERCENT<sup className="text-[0.4em] align-top">™</sup> <br className="hidden md:block" /> A highly effective branding and
                 digital marketing agency.
-              </h3>
+              </h2>
               <p>
                 Meet a professional agency that believes in delivering effective
                 results. We have developed a methodology to help businesses

@@ -9,7 +9,7 @@ const PitchSection = () => {
         <div className="flex flex-wrap -mx-[15px]">
           <div className="w-full px-[15px]">
             <Reveal direction="down" delay={0.2}>
-              <h3 className="text-black text-[24px] font-[500] uppercase tracking-[2px] mb-[15px]">REQUEST A QUOTE</h3>
+              <h2 className="text-black text-[24px] font-[500] uppercase tracking-[2px] mb-[15px]">REQUEST A QUOTE</h2>
               <p>
                 Want to reinvigorate your brand, develop a world-class retina-ready
                 website or design a visually stunning brochure, we are the people to

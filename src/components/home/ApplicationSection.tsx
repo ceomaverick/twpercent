@@ -57,10 +57,10 @@ const ApplicationSection = () => {
           {/* Text Content */}
           <div className="w-full md:w-5/12 px-[15px] text-left mb-[60px] md:mb-0">
             <Reveal direction="up" delay={0.2}>
-              <h3 className="text-black text-[24px] font-[500] uppercase pb-[15px] leading-[1.3]">
+              <h2 className="text-black text-[24px] font-[500] uppercase pb-[15px] leading-[1.3]">
                 We determine that <br className="hidden md:block" />
                 20% in everything we do.
-              </h3>
+              </h2>
               <p>
                 We help our clients determine the critically influential factors that
                 contribute to the success of their marketing campaign. Based on
@@ -85,6 +85,8 @@ const ApplicationSection = () => {
                           width={service.width}
                           height={service.height}
                           className="object-contain"
+                          style={{ height: 'auto' }}
+                          decoding="async"
                         />
                       </div>
                       <h5 className="text-[11px] md:text-[12px] font-[500] mt-[30px] mb-[10px] leading-[1.3] text-[#333] tracking-[2px] uppercase whitespace-pre-line">

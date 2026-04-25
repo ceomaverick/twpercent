@@ -14,7 +14,7 @@ const workSans = Work_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "TwentyPercent Designs | Effective Advertising Agency in Mumbai",
+    default: "TwentyPercent | Effective Advertising Agency in Mumbai",
     template: "%s | TwentyPercent Designs",
   },
   description: "TwentyPercent is Mumbai's most effective advertising agency. We specialize in web design, branding, and strategic advertising to maximize your business results.",
