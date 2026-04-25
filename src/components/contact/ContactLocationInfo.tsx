@@ -1,6 +1,13 @@
+/**
+ * @component LocationInfo
+ * @page Contact (/app/contact/page.tsx)
+ * @description Section displaying the agency's physical location with a monochromatic background.
+ * @shared false
+ * @props none
+ */
 "use client";
 
-import { Reveal } from "@/components/Reveal";
+import SharedReveal from "@/components/shared/SharedReveal";
 
 const LocationInfo = () => {
   return (
@@ -17,7 +24,7 @@ const LocationInfo = () => {
         <div className="flex flex-wrap -mx-[15px]">
           {/* Mumbai Location */}
           <div className="w-full md:w-6/12 px-[15px] mb-12 md:mb-0">
-            <Reveal direction="left" delay={0.2}>
+            <SharedReveal direction="left" delay={0.2}>
               <div className="text-white border-l-4 border-white/30 pl-8">
                 <h4 className="text-[20px] font-[500] uppercase tracking-[3px] mb-6">Navi Mumbai Office</h4>
                 <div className="space-y-6">
@@ -42,12 +49,12 @@ const LocationInfo = () => {
                   </div>
                 </div>
               </div>
-            </Reveal>
+            </SharedReveal>
           </div>
 
           {/* Pune Location */}
           <div className="w-full md:w-6/12 px-[15px]">
-            <Reveal direction="right" delay={0.4}>
+            <SharedReveal direction="right" delay={0.4}>
               <div className="text-white border-l-4 border-white/30 pl-8">
                 <h4 className="text-[20px] font-[500] uppercase tracking-[3px] mb-6">Pune Design Studio</h4>
                 <div className="space-y-6">
@@ -72,7 +79,7 @@ const LocationInfo = () => {
                   </div>
                 </div>
               </div>
-            </Reveal>
+            </SharedReveal>
           </div>
         </div>
       </div>
@@ -81,3 +88,5 @@ const LocationInfo = () => {
 };
 
 export default LocationInfo;
+
+

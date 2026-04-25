@@ -1,3 +1,10 @@
+/**
+ * @component HomeHero
+ * @page Home (/app/page.tsx)
+ * @description Hero section with background image, animated text, and particle effects.
+ * @shared false
+ * @props none
+ */
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
@@ -9,7 +16,7 @@ import type { ISourceOptions } from "@tsparticles/engine";
 
 import Image from "next/image";
 
-const Hero = () => {
+const HomeHero = () => {
   const [init, setInit] = useState(false);
 
   useEffect(() => {
@@ -139,4 +146,6 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HomeHero;
+
+

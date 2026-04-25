@@ -1,10 +1,17 @@
+/**
+ * @component HomeApplicationSection
+ * @page Home (/app/page.tsx)
+ * @description Grid of services/applications offered by the agency with icons.
+ * @shared false
+ * @props none
+ */
 "use client";
 
 import Link from "next/link";
 import Image from "next/image";
-import { Reveal } from "@/components/Reveal";
+import SharedReveal from "@/components/shared/SharedReveal";
 
-const ApplicationSection = () => {
+const HomeApplicationSection = () => {
   const services = [
     {
       title: "SOCIAL MEDIA MARKETING",
@@ -56,7 +63,7 @@ const ApplicationSection = () => {
         <div className="flex flex-wrap -mx-[15px] items-center">
           {/* Text Content */}
           <div className="w-full md:w-5/12 px-[15px] text-left mb-[60px] md:mb-0">
-            <Reveal direction="up" delay={0.2}>
+            <SharedReveal direction="up" delay={0.2}>
               <h2 className="text-black text-[24px] font-[500] uppercase pb-[15px] leading-[1.3]">
                 We determine that <br className="hidden md:block" />
                 20% in everything we do.
@@ -68,12 +75,12 @@ const ApplicationSection = () => {
                 out a way to maximize results and put a strategy in the place to
                 achieve them with minimal efforts.
               </p>
-            </Reveal>
+            </SharedReveal>
           </div>
 
           {/* Icon Grid */}
           <div className="w-full md:w-6/12 md:ml-[8.333%] px-[15px] text-center">
-            <Reveal direction="down" delay={0.4}>
+            <SharedReveal direction="down" delay={0.4}>
               <div className="grid grid-cols-3 gap-y-[60px]">
                 {services.map((service, index) => (
                   <div key={index} className="text-center group">
@@ -96,7 +103,7 @@ const ApplicationSection = () => {
                   </div>
                 ))}
               </div>
-            </Reveal>
+            </SharedReveal>
           </div>
         </div>
       </div>
@@ -104,4 +111,7 @@ const ApplicationSection = () => {
   );
 };
 
-export default ApplicationSection;
+export default HomeApplicationSection;
+
+
+

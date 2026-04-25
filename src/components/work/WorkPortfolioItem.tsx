@@ -1,8 +1,15 @@
+/**
+ * @component WorkPortfolioItem
+ * @page Work (/app/work/page.tsx)
+ * @description Renders an individual portfolio category item with an image and text.
+ * @shared false
+ * @props title, description, imageSrc, href, isReversed
+ */
 "use client";
 
 import Link from "next/link";
 import Image from "next/image";
-import { Reveal } from "@/components/Reveal";
+import SharedReveal from "@/components/shared/SharedReveal";
 
 interface PortfolioItemProps {
   title: string;
@@ -12,7 +19,7 @@ interface PortfolioItemProps {
   isReversed?: boolean;
 }
 
-const PortfolioItem = ({
+const WorkPortfolioItem = ({
   title,
   description,
   imageSrc,
@@ -20,7 +27,7 @@ const PortfolioItem = ({
   isReversed,
 }: PortfolioItemProps) => {
   return (
-    <Reveal direction="up" delay={0.2} className="flex flex-wrap -mx-[15px] mb-[30px] md:mb-[50px] items-stretch">
+    <SharedReveal direction="up" delay={0.2} className="flex flex-wrap -mx-[15px] mb-[30px] md:mb-[50px] items-stretch">
       {/* Image Column */}
       <div className={`w-full md:w-8/12 px-[15px] mb-[20px] md:mb-0 ${isReversed ? "md:order-first" : "md:order-last"}`}>
         <div className="relative h-[300px] md:h-[500px] overflow-hidden group cursor-pointer bg-black">
@@ -72,8 +79,11 @@ const PortfolioItem = ({
           <p>{description}</p>
         </div>
       </div>
-    </Reveal>
+    </SharedReveal>
   );
 };
 
-export default PortfolioItem;
+export default WorkPortfolioItem;
+
+
+

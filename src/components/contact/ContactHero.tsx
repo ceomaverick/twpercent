@@ -1,3 +1,10 @@
+/**
+ * @component ContactHero
+ * @page Contact (/app/contact/page.tsx)
+ * @description Hero section for the Contact page with background image and particle effects.
+ * @shared false
+ * @props none
+ */
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
@@ -93,3 +100,4 @@ const ContactHero = () => {
 };
 
 export default ContactHero;
+

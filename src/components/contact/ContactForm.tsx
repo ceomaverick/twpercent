@@ -1,6 +1,13 @@
+/**
+ * @component ContactForm
+ * @page Contact (/app/contact/page.tsx)
+ * @description Contact section featuring a form and agency contact details.
+ * @shared false
+ * @props none
+ */
 "use client";
 
-import { Reveal } from "@/components/Reveal";
+import SharedReveal from "@/components/shared/SharedReveal";
 
 const ContactForm = () => {
   return (
@@ -9,7 +16,7 @@ const ContactForm = () => {
         <div className="flex flex-wrap -mx-4">
           {/* Contact Info Column */}
           <div className="w-full md:w-5/12 px-[15px] mb-[60px] md:mb-0 text-left">
-            <Reveal direction="up" delay={0.2}>
+            <SharedReveal direction="up" delay={0.2}>
               <h3 className="text-black text-[24px] font-[500] uppercase tracking-[2px] mb-[30px]">Contact Us</h3>
               <p className="mb-[30px]">
                 Want to reinvigorate your brand, develop a world-class retina-ready
@@ -26,12 +33,12 @@ const ContactForm = () => {
                   Email: <span className="font-[300]">ceomaverick@gmail.com</span>
                 </p>
               </div>
-            </Reveal>
+            </SharedReveal>
           </div>
 
           {/* Image Column */}
           <div className="w-full md:w-5/12 md:ml-[16.666%] flex items-center justify-center">
-            <Reveal direction="down" delay={0.4} className="w-full">
+            <SharedReveal direction="down" delay={0.4} className="w-full">
               <div className="relative w-full mx-auto">
                 <img 
                   src="/img/contact/phone.webp" 
@@ -39,7 +46,7 @@ const ContactForm = () => {
                   className="w-full h-auto object-contain"
                 />
               </div>
-            </Reveal>
+            </SharedReveal>
           </div>
         </div>
       </div>
@@ -48,3 +55,5 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
+

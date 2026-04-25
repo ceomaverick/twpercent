@@ -1,3 +1,10 @@
+/**
+ * @component WorkHero
+ * @page Work (/app/work/page.tsx)
+ * @description Hero section for the Work portfolio page with background image and particle effects.
+ * @shared false
+ * @props none
+ */
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
@@ -94,3 +101,4 @@ const WorkHero = () => {
 };
 
 export default WorkHero;
+

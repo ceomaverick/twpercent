@@ -1,3 +1,10 @@
+/**
+ * @component SharedNavbar
+ * @page Shared
+ * @description Main site header with logo and primary navigation links (desktop and mobile versions).
+ * @shared true
+ * @props none
+ */
 "use client";
 
 import { useState, useEffect } from "react";
@@ -6,7 +13,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
-const Navbar = () => {
+const SharedNavbar = () => {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -108,4 +115,6 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default SharedNavbar;
+
+

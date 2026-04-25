@@ -1,6 +1,6 @@
 import ContactHero from "@/components/contact/ContactHero";
 import ContactForm from "@/components/contact/ContactForm";
-import LocationInfo from "@/components/contact/LocationInfo";
+import ContactLocationInfo from "@/components/contact/ContactLocationInfo";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export default function ContactPage() {
     <main>
       <ContactHero />
       <ContactForm />
-      <LocationInfo />
+      <ContactLocationInfo />
     </main>
   );
 }

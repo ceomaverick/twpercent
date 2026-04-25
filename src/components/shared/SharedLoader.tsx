@@ -1,9 +1,16 @@
+/**
+ * @component SharedLoader
+ * @page Shared
+ * @description Initial page loader with a CSS-animated square and fade-out transition.
+ * @shared true
+ * @props none
+ */
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const Loader = () => {
+const SharedLoader = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
@@ -35,4 +42,6 @@ const Loader = () => {
   );
 };
 
-export default Loader;
+export default SharedLoader;
+
+

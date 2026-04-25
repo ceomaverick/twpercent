@@ -1,6 +1,13 @@
+/**
+ * @component AboutTeamMember
+ * @page About (/app/about/page.tsx)
+ * @description Renders a team member's profile with bio and skill bars.
+ * @shared false
+ * @props Skill[]
+ */
 "use client";
 
-import { Reveal } from "@/components/Reveal";
+import SharedReveal from "@/components/shared/SharedReveal";
 import { motion } from "framer-motion";
 
 interface Skill {
@@ -20,7 +27,7 @@ interface TeamMemberProps {
   skills: Skill[];
 }
 
-const TeamMember = ({
+const AboutTeamMember = ({
   name,
   role,
   bio,
@@ -39,14 +46,14 @@ const TeamMember = ({
     <div className="flex flex-wrap -mx-[15px] mb-[60px] items-stretch">
       {/* Image Column */}
       <div className={`w-full md:w-5/12 px-[15px] ${isReversed ? "md:order-last" : "md:order-first"}`}>
-        <Reveal direction="up" delay={0.2} className="h-full">
+        <SharedReveal direction="up" delay={0.2} className="h-full">
           <div className={`${imageClass} w-full h-[400px] md:h-full min-h-[400px] bg-cover bg-center shadow-sm`}></div>
-        </Reveal>
+        </SharedReveal>
       </div>
 
       {/* Content Column */}
       <div className={`w-full md:w-7/12 px-[15px] ${isReversed ? "md:order-first" : "md:order-last"}`}>
-        <Reveal direction="up" delay={0.3} className="bg-white p-[30px] md:p-[60px] h-full flex flex-col justify-center shadow-sm">
+        <SharedReveal direction="up" delay={0.3} className="bg-white p-[30px] md:p-[60px] h-full flex flex-col justify-center shadow-sm">
           <h3 className="text-black text-[20px] md:text-[24px] font-[500] pb-[20px] leading-[1.3] uppercase tracking-wide">
             {name} | <span className="text-[#999] font-[300] normal-case text-[0.75em]">{role}</span>
           </h3>
@@ -61,7 +68,7 @@ const TeamMember = ({
 
               return (
                 <div key={index} className="flex flex-col items-center">
-                  <Reveal direction="up" delay={0.4 + index * 0.1}>
+                  <SharedReveal direction="up" delay={0.4 + index * 0.1}>
                     <div className="relative w-[80px] h-[80px] flex items-center justify-center bg-white rounded-full mb-[15px]">
                       <div className="absolute inset-0 border-[8px] border-[#ddd] rounded-full"></div>
                       
@@ -90,15 +97,18 @@ const TeamMember = ({
                       <div className="relative z-20 text-[14px] font-medium">{skill.value}%</div>
                     </div>
                     <h5 className="text-[11px] font-medium uppercase tracking-wider text-center">{skill.name}</h5>
-                  </Reveal>
+                  </SharedReveal>
                 </div>
               );
             })}
           </div>
-        </Reveal>
+        </SharedReveal>
       </div>
     </div>
   );
 };
 
-export default TeamMember;
+export default AboutTeamMember;
+
+
+

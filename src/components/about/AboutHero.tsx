@@ -1,3 +1,10 @@
+/**
+ * @component AboutHero
+ * @page About (/app/about/page.tsx)
+ * @description Hero section for the About page with background image and particle effects.
+ * @shared false
+ * @props none
+ */
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
@@ -94,3 +101,4 @@ const AboutHero = () => {
 };
 
 export default AboutHero;
+

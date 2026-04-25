@@ -1,9 +1,9 @@
-import Hero from "@/components/home/Hero";
-import AgencyIntroduction from "@/components/home/AgencyIntroduction";
-import ParetoSection from "@/components/home/ParetoSection";
-import ApplicationSection from "@/components/home/ApplicationSection";
-import SubscribeSection from "@/components/home/SubscribeSection";
-import PitchSection from "@/components/home/PitchSection";
+import HomeHero from "@/components/home/HomeHero";
+import HomeAgencyIntroduction from "@/components/home/HomeAgencyIntroduction";
+import HomeParetoSection from "@/components/home/HomeParetoSection";
+import HomeApplicationSection from "@/components/home/HomeApplicationSection";
+import HomeSubscribeSection from "@/components/home/HomeSubscribeSection";
+import HomePitchSection from "@/components/home/HomePitchSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,12 +14,12 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <AgencyIntroduction />
-      <ParetoSection />
-      <ApplicationSection />
-      <SubscribeSection />
-      <PitchSection />
+      <HomeHero />
+      <HomeAgencyIntroduction />
+      <HomeParetoSection />
+      <HomeApplicationSection />
+      <HomeSubscribeSection />
+      <HomePitchSection />
     </main>
   );
 }

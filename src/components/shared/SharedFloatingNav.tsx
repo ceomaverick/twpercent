@@ -1,10 +1,17 @@
+/**
+ * @component SharedFloatingNav
+ * @page Shared
+ * @description Floating navigation bar that appears on scroll for quick access to main pages.
+ * @shared true
+ * @props none
+ */
 "use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-const FloatingNav = () => {
+const SharedFloatingNav = () => {
   const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
 
@@ -53,4 +60,6 @@ const FloatingNav = () => {
   );
 };
 
-export default FloatingNav;
+export default SharedFloatingNav;
+
+

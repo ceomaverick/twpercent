@@ -1,8 +1,15 @@
+/**
+ * @component HomeAgencyIntroduction
+ * @page Home (/app/page.tsx)
+ * @description Introduction section with office background and agency philosophy text.
+ * @shared false
+ * @props none
+ */
 "use client";
 
-import { Reveal } from "@/components/Reveal";
+import SharedReveal from "@/components/shared/SharedReveal";
 
-const AgencyIntroduction = () => {
+const HomeAgencyIntroduction = () => {
   return (
     <section className="relative min-h-[500px] bg-[#f7f7f7] border-b border-[#eee] overflow-hidden">
       <div className="absolute top-0 left-0 w-full md:w-1/2 h-[600px] md:h-full bg-[url('/img/bg/office-bg-optimised.jpg')] bg-cover bg-top z-0"></div>
@@ -12,7 +19,7 @@ const AgencyIntroduction = () => {
           <div className="w-full md:w-1/2 h-[600px] md:h-auto hidden md:block"> &nbsp;</div>
           
           <div className="w-full md:w-1/2">
-            <Reveal direction="up" delay={0.3} className="px-[15px] py-[6rem] md:pl-[6rem] md:pr-0">
+            <SharedReveal direction="up" delay={0.3} className="px-[15px] py-[6rem] md:pl-[6rem] md:pr-0">
               <h2 className="text-black text-[24px] font-[500] uppercase leading-[1.3] mb-[2rem] mt-[3rem]">
                 TWENTYPERCENT<sup className="text-[0.4em] align-top">™</sup> <br className="hidden md:block" /> A highly effective branding and
                 digital marketing agency.
@@ -25,7 +32,7 @@ const AgencyIntroduction = () => {
                 streamline their design and advertising activities and save a lot
                 of money and effort in the process.
               </p>
-            </Reveal>
+            </SharedReveal>
           </div>
         </div>
       </div>
@@ -33,4 +40,7 @@ const AgencyIntroduction = () => {
   );
 };
 
-export default AgencyIntroduction;
+export default HomeAgencyIntroduction;
+
+
+

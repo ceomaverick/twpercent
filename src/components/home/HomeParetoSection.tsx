@@ -1,11 +1,18 @@
+/**
+ * @component HomeParetoSection
+ * @page Home (/app/page.tsx)
+ * @description Explains the Pareto principle (80/20 rule) as applied to the agency's strategy.
+ * @shared false
+ * @props none
+ */
 "use client";
 
 import { useState } from "react";
 import Image from "next/image";
-import { Reveal } from "@/components/Reveal";
+import SharedReveal from "@/components/shared/SharedReveal";
 import { motion, AnimatePresence } from "framer-motion";
 
-const ParetoSection = () => {
+const HomeParetoSection = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
@@ -13,7 +20,7 @@ const ParetoSection = () => {
       <div className="legacy-container">
         <div className="flex flex-col items-center">
           <div className="w-full">
-            <Reveal direction="down" delay={0.2} className="flex flex-col items-center">
+            <SharedReveal direction="down" delay={0.2} className="flex flex-col items-center">
               <Image
                 src="/img/svg/twenty-nav-logo.svg"
                 alt="TwentyPercent Logo"
@@ -32,11 +39,11 @@ const ParetoSection = () => {
                   <rect width="40" height="4" style={{ fill: "#5d5d5d" }} />
                 </svg>
               </div>
-            </Reveal>
+            </SharedReveal>
           </div>
           
           <div className="w-full max-w-[1000px] mx-auto px-[15px]">
-            <Reveal direction="up" delay={0.4}>
+            <SharedReveal direction="up" delay={0.4}>
               <p className="mt-[2.5rem] mb-[30px] text-[#222] max-w-[1000px] mx-auto">
                 Ever wondered why 20% of the world population holds 80% of its
                 wealth? Why 20% of your customers bring you 80% of the profits?
@@ -53,7 +60,7 @@ const ParetoSection = () => {
                   KNOW MORE
                 </button>
               )}
-            </Reveal>
+            </SharedReveal>
 
             <AnimatePresence>
               {isExpanded && (
@@ -99,4 +106,7 @@ const ParetoSection = () => {
   );
 };
 
-export default ParetoSection;
+export default HomeParetoSection;
+
+
+

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import Loader from "@/components/Loader";
-import FloatingNav from "@/components/FloatingNav";
+import SharedNavbar from "@/components/shared/SharedNavbar";
+import SharedFooter from "@/components/shared/SharedFooter";
+import SharedLoader from "@/components/shared/SharedLoader";
+import SharedFloatingNav from "@/components/shared/SharedFloatingNav";
 import "./globals.css";
 
 const workSans = Work_Sans({
@@ -81,12 +81,12 @@ export default function RootLayout({
       </head>
       <body className={workSans.className}>
         <div id="sitewrapper">
-          <Loader />
-          <Navbar />
+          <SharedLoader />
+          <SharedNavbar />
           {children}
-          <Footer />
+          <SharedFooter />
         </div>
-        <FloatingNav />
+        <SharedFloatingNav />
       </body>
     </html>
   );

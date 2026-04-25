@@ -1,7 +1,14 @@
+/**
+ * @component SharedFooter
+ * @page Shared
+ * @description Site footer with logo, address, navigation links, and social media icons.
+ * @shared true
+ * @props none
+ */
 import Link from "next/link";
 import Image from "next/image";
 
-const Footer = () => {
+const SharedFooter = () => {
   return (
     <>
       <footer className="bg-[#f9f9f9] py-[70px] pb-[40px] border-t border-[#eee]">
@@ -123,4 +130,6 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default SharedFooter;
+
+

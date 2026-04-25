@@ -1,3 +1,10 @@
+/**
+ * @component ServicesHero
+ * @page Services (/app/services/page.tsx)
+ * @description Hero section for the Services page with background image and particle effects.
+ * @shared false
+ * @props none
+ */
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
@@ -8,7 +15,7 @@ import type { ISourceOptions } from "@tsparticles/engine";
 
 import Image from "next/image";
 
-const ServiceHero = () => {
+const ServicesHero = () => {
   const [init, setInit] = useState(false);
 
   useEffect(() => {
@@ -93,4 +100,6 @@ const ServiceHero = () => {
   );
 };
 
-export default ServiceHero;
+export default ServicesHero;
+
+

@@ -1,10 +1,17 @@
+/**
+ * @component AboutTeamLeader
+ * @page About (/app/about/page.tsx)
+ * @description Profile section for the agency's creative lead.
+ * @shared false
+ * @props none
+ */
 "use client";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Reveal } from "@/components/Reveal";
+import SharedReveal from "@/components/shared/SharedReveal";
 
-const TeamLeader = () => {
+const AboutTeamLeader = () => {
   const skills = [
     { name: "STORY TELLING", value: 90, color: "bg-[#3b3b3b]" },
     { name: "DESIGN", value: 85, color: "bg-[#222]" },
@@ -15,7 +22,7 @@ const TeamLeader = () => {
   return (
     <section className="py-[100px] bg-white overflow-hidden">
       <div className="legacy-container">
-        <Reveal direction="up" delay={0.2} className="flex flex-wrap -mx-[15px] items-center">
+        <SharedReveal direction="up" delay={0.2} className="flex flex-wrap -mx-[15px] items-center">
           <div className="w-full md:w-5/12 px-[15px] mb-[60px] md:mb-0">
             <div className="relative min-h-[420px] md:mr-[25px] shadow-sm bg-[#f7f7f7]">
               <Image
@@ -74,10 +81,12 @@ const TeamLeader = () => {
               </div>
             </div>
           </div>
-        </Reveal>
+        </SharedReveal>
       </div>
     </section>
   );
 };
 
-export default TeamLeader;
+export default AboutTeamLeader;
+
+

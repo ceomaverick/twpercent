@@ -1,6 +1,13 @@
+/**
+ * @component HomeSubscribeSection
+ * @page Home (/app/page.tsx)
+ * @description Subscription/Contact CTA section with a background image.
+ * @shared false
+ * @props none
+ */
 "use client";
 
-const SubscribeSection = () => {
+const HomeSubscribeSection = () => {
   return (
     <section className="relative bg-[#111] bg-[url('/img/bg/contact-bg-optimised.jpg')] bg-cover bg-center text-white py-[60px] pb-[40px] overflow-hidden">
       <div className="absolute inset-0 bg-black/40 z-0"></div>
@@ -35,4 +42,6 @@ const SubscribeSection = () => {
   );
 };
 
-export default SubscribeSection;
+export default HomeSubscribeSection;
+
+

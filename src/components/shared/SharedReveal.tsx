@@ -1,3 +1,10 @@
+/**
+ * @component SharedReveal
+ * @page Shared
+ * @description Framer Motion wrapper component for scroll-triggered reveal animations.
+ * @shared true
+ * @props children, direction, delay, duration
+ */
 "use client";
 
 import { motion, Variants } from "framer-motion";
@@ -11,7 +18,7 @@ interface RevealProps {
   className?: string;
 }
 
-export const Reveal = ({
+export const SharedReveal = ({
   children,
   direction = "up",
   delay = 0,
@@ -52,3 +59,7 @@ export const Reveal = ({
     </motion.div>
   );
 };
+
+export default SharedReveal;
+
+
