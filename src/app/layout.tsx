@@ -4,6 +4,7 @@ import SharedNavbar from "@/components/shared/SharedNavbar";
 import SharedFooter from "@/components/shared/SharedFooter";
 import SharedLoader from "@/components/shared/SharedLoader";
 import SharedFloatingNav from "@/components/shared/SharedFloatingNav";
+import { LoadingProvider } from "@/context/LoadingContext";
 import "./globals.css";
 
 const workSans = Work_Sans({
@@ -80,13 +81,15 @@ export default function RootLayout({
         />
       </head>
       <body className={workSans.className}>
-        <div id="sitewrapper">
-          <SharedLoader />
-          <SharedNavbar />
-          {children}
-          <SharedFooter />
-        </div>
-        <SharedFloatingNav />
+        <LoadingProvider>
+          <div id="sitewrapper">
+            <SharedLoader />
+            <SharedNavbar />
+            {children}
+            <SharedFooter />
+          </div>
+          <SharedFloatingNav />
+        </LoadingProvider>
       </body>
     </html>
   );

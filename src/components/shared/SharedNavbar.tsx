@@ -47,7 +47,7 @@ const SharedNavbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:block h-full">
+        <div className="hidden md:flex items-center h-full">
           <ul className="flex items-center space-x-0 h-full">
             {[
               { label: "HOME", href: "/" },
@@ -73,17 +73,40 @@ const SharedNavbar = () => {
               </li>
             ))}
           </ul>
+          {/* LinkedIn Icon */}
+          <div className="ml-4 border-l pl-6 h-6 flex items-center border-gray-200">
+            <a 
+              href="https://www.linkedin.com/in/deshmukhavinash/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#0077b5] hover:scale-110 transition-transform duration-300"
+              aria-label="LinkedIn Profile"
+            >
+              <i className="ion-social-linkedin text-2xl" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
 
-        {/* Mobile Toggle */}
-        <button
-          className="md:hidden flex flex-col space-y-1.5 focus:outline-none"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          <span className={`block w-6 h-0.5 bg-black transition-transform ${isMenuOpen ? "rotate-45 translate-y-2" : ""}`}></span>
-          <span className={`block w-6 h-0.5 bg-black ${isMenuOpen ? "opacity-0" : ""}`}></span>
-          <span className={`block w-6 h-0.5 bg-black transition-transform ${isMenuOpen ? "-rotate-45 -translate-y-2" : ""}`}></span>
-        </button>
+        {/* Mobile Toggle & LinkedIn */}
+        <div className="md:hidden flex items-center gap-6">
+          <a 
+            href="https://www.linkedin.com/in/deshmukhavinash/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[#0077b5]"
+            aria-label="LinkedIn Profile"
+          >
+            <i className="ion-social-linkedin text-2xl" aria-hidden="true"></i>
+          </a>
+          <button
+            className="flex flex-col space-y-1.5 focus:outline-none"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            <span className={`block w-6 h-0.5 bg-black transition-transform ${isMenuOpen ? "rotate-45 translate-y-2" : ""}`}></span>
+            <span className={`block w-6 h-0.5 bg-black ${isMenuOpen ? "opacity-0" : ""}`}></span>
+            <span className={`block w-6 h-0.5 bg-black transition-transform ${isMenuOpen ? "-rotate-45 -translate-y-2" : ""}`}></span>
+          </button>
+        </div>
       </nav>
 
       {/* Mobile Menu */}

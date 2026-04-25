@@ -13,19 +13,29 @@ import { motion } from "framer-motion";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import type { ISourceOptions } from "@tsparticles/engine";
+import { useLoading } from "@/context/LoadingContext";
 
 import Image from "next/image";
 
 const HomeHero = () => {
-  const [init, setInit] = useState(false);
+  const { setIsLoaded } = useLoading();
+  const [particlesInit, setParticlesInit] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
     }).then(() => {
-      setInit(true);
+      setParticlesInit(true);
     });
   }, []);
+
+  // Signal completion when both are ready
+  useEffect(() => {
+    if (particlesInit && imageLoaded) {
+      setIsLoaded(true);
+    }
+  }, [particlesInit, imageLoaded, setIsLoaded]);
 
   const particlesOptions: ISourceOptions = useMemo(
     () => ({
@@ -85,9 +95,9 @@ const HomeHero = () => {
 
   return (
     <motion.section 
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: imageLoaded ? 1 : 0 }}
+      transition={{ duration: 1.2, ease: "easeOut" }}
       className="relative text-center w-full overflow-hidden pt-[56px] md:pt-[77px]"
     >
       <div className="absolute inset-0 z-0">
@@ -100,12 +110,13 @@ const HomeHero = () => {
           sizes="100vw"
           fetchPriority="high"
           className="object-cover"
+          onLoad={() => setImageLoaded(true)}
         />
       </div>
 
       <div className="legacy-container relative z-10 min-h-[450px] md:min-h-[480px] flex items-center justify-center">
-        {init && (
-          <div className="absolute inset-0 z-[-1]">
+        {particlesInit && (
+          <div className={`absolute inset-0 z-[-1] transition-opacity duration-1000 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
             <Particles
               id="tsparticles"
               options={particlesOptions}
@@ -117,9 +128,9 @@ const HomeHero = () => {
         <div className="w-full">
           <div className="flex flex-col items-center justify-center py-12 md:py-0">
             <motion.h1
-              initial={{ opacity: 0, y: -50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={imageLoaded ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 1, delay: 0.8 }}
               className="text-[25px] md:text-[45px] text-white font-[100] mb-[30px] uppercase leading-[1.2] tracking-normal"
             >
               <span className="eyebrow block mb-[10px]">Advertising Agency in Mumbai</span>
@@ -128,9 +139,9 @@ const HomeHero = () => {
             </motion.h1>
             
             <motion.div
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 1 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={imageLoaded ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 1, delay: 1.2 }}
             >
               <Link
                 href="/about"

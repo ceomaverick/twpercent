@@ -43,10 +43,10 @@ const SharedFloatingNav = () => {
                 key={cat.href}
                 href={cat.href}
                 className={`
-                  relative px-4 md:px-6 py-2 rounded-full text-[10px] md:text-xs font-medium uppercase tracking-[1px] transition-all duration-300
+                  relative px-3 md:px-5 py-1.5 rounded-full text-[9px] md:text-[10px] uppercase transition-all duration-500 ease-out
                   ${isActive 
-                    ? "bg-black text-white shadow-lg shadow-black/20" 
-                    : "text-neutral-800 hover:bg-black/5 hover:text-black"
+                    ? "bg-black text-white shadow-md shadow-black/10 scale-105" 
+                    : "text-neutral-600 hover:bg-black/5 hover:text-black hover:scale-105 active:scale-95"
                   }
                 `}
               >

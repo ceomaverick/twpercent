@@ -61,23 +61,25 @@ const WorkPortfolioItem = ({
 
       {/* Text Content Column */}
       <div className={`w-full md:w-4/12 px-[15px] ${isReversed ? "md:order-last" : "md:order-first"}`}>
-        <div className="h-full min-h-[300px] md:min-h-[500px] bg-[#f1f1f1] p-[40px] md:p-[60px] flex flex-col items-center justify-center text-center shadow-sm">
-          <h3 className="text-black text-[24px] font-[500] mb-[15px] uppercase tracking-wide flex items-center gap-3">
-            {!isReversed && (
-              <>
-                {title}
-                <i className="ion-android-arrow-forward text-2xl" aria-hidden="true"></i>
-              </>
-            )}
-            {isReversed && (
-              <>
-                <i className="ion-android-arrow-back text-2xl" aria-hidden="true"></i>
-                {title}
-              </>
-            )}
-          </h3>
-          <p>{description}</p>
-        </div>
+        <Link href={href} className="block h-full group/text">
+          <div className="h-full min-h-[300px] md:min-h-[500px] bg-[#f1f1f1] p-[40px] md:p-[60px] flex flex-col items-center justify-center text-center shadow-sm transition-all duration-300 group-hover/text:bg-white group-hover/text:shadow-md">
+            <h3 className="text-black text-[24px] font-[500] mb-[15px] uppercase tracking-wide flex items-center gap-3">
+              {!isReversed && (
+                <>
+                  {title}
+                  <i className="ion-android-arrow-forward text-2xl transition-transform duration-300 group-hover/text:translate-x-2" aria-hidden="true"></i>
+                </>
+              )}
+              {isReversed && (
+                <>
+                  <i className="ion-android-arrow-back text-2xl transition-transform duration-300 group-hover/text:-translate-x-2" aria-hidden="true"></i>
+                  {title}
+                </>
+              )}
+            </h3>
+            <p className="text-gray-600 transition-colors duration-300 group-hover/text:text-black">{description}</p>
+          </div>
+        </Link>
       </div>
     </SharedReveal>
   );
