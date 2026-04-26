@@ -16,7 +16,7 @@ interface WorkCategoryHeroProps {
 const WorkCategoryHero = ({ title, heroBg }: WorkCategoryHeroProps) => {
   return (
     <section 
-      className="min-h-[250px] md:min-h-[400px] w-full text-center flex items-center justify-center pt-[56px] md:pt-[77px] bg-no-repeat bg-center bg-cover"
+      className="min-h-[200px] md:min-h-[400px] w-full text-center flex items-center justify-center pt-[56px] md:pt-[77px] bg-no-repeat bg-center bg-cover"
       style={{ backgroundImage: heroBg ? `url(${heroBg})` : 'none' }}
     >
       <div className="container">

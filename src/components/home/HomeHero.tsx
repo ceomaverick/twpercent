@@ -114,7 +114,7 @@ const HomeHero = () => {
         />
       </div>
 
-      <div className="legacy-container relative z-10 min-h-[450px] md:min-h-[480px] flex items-center justify-center">
+      <div className="legacy-container relative z-10 min-h-[350px] md:min-h-[480px] flex items-center justify-center">
         {particlesInit && (
           <div className={`absolute inset-0 z-[-1] transition-opacity duration-1000 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
             <Particles
