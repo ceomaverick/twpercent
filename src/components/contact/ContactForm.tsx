@@ -8,6 +8,7 @@
 "use client";
 
 import SharedReveal from "@/components/shared/SharedReveal";
+import Image from "next/image";
 
 const ContactForm = () => {
   return (
@@ -40,9 +41,11 @@ const ContactForm = () => {
           <div className="w-full md:w-5/12 md:ml-[16.666%] flex items-center justify-center">
             <SharedReveal direction="down" delay={0.4} className="w-full">
               <div className="relative w-full mx-auto">
-                <img 
+                <Image 
                   src="/img/contact/phone.webp" 
                   alt="Contact Us" 
+                  width={800}
+                  height={534}
                   className="w-full h-auto object-contain"
                 />
               </div>

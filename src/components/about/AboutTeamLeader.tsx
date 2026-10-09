@@ -45,7 +45,7 @@ const AboutTeamLeader = () => {
               <p className="pb-[20px] text-[17px] leading-[1.7] text-[#444]">
                 Architect of Impact. With over a decade of navigating high-stakes 
                 advertising, Avinash specializes in isolating the strategic narratives 
-                that standard campaigns miss. He doesn't just "tinker" in design; he 
+                that standard campaigns miss. He doesn&apos;t just &quot;tinker&quot; in design; he 
                 engineers visual ecosystems built for technical precision and immediate 
                 market authority.
               </p>

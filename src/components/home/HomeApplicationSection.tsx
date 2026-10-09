@@ -71,7 +71,7 @@ const HomeApplicationSection = () => {
               <p>
                 We help our clients determine the critically influential factors that
                 contribute to the success of their marketing campaign. Based on
-                marketing data and insights, the TwentyPercent's methodology figures
+                marketing data and insights, the TwentyPercent&apos;s methodology figures
                 out a way to maximize results and put a strategy in the place to
                 achieve them with minimal efforts.
               </p>

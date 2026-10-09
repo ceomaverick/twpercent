@@ -10,32 +10,27 @@
 import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
+import Particles, { ParticlesProvider } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import type { ISourceOptions } from "@tsparticles/engine";
+import { type ISourceOptions, type Engine } from "@tsparticles/engine";
 import { useLoading } from "@/context/LoadingContext";
 
 import Image from "next/image";
 
+const particlesInit = async (engine: Engine) => {
+  await loadSlim(engine);
+};
+
 const HomeHero = () => {
   const { setIsLoaded } = useLoading();
-  const [particlesInit, setParticlesInit] = useState(false);
   const [imageLoaded, setImageLoaded] = useState(false);
 
+  // Signal completion when image is ready
   useEffect(() => {
-    initParticlesEngine(async (engine) => {
-      await loadSlim(engine);
-    }).then(() => {
-      setParticlesInit(true);
-    });
-  }, []);
-
-  // Signal completion when both are ready
-  useEffect(() => {
-    if (particlesInit && imageLoaded) {
+    if (imageLoaded) {
       setIsLoaded(true);
     }
-  }, [particlesInit, imageLoaded, setIsLoaded]);
+  }, [imageLoaded, setIsLoaded]);
 
   const particlesOptions: ISourceOptions = useMemo(
     () => ({
@@ -115,15 +110,15 @@ const HomeHero = () => {
       </div>
 
       <div className="legacy-container relative z-10 min-h-[350px] md:min-h-[480px] flex items-center justify-center">
-        {particlesInit && (
-          <div className={`absolute inset-0 z-[-1] transition-opacity duration-1000 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
+        <div className={`absolute inset-0 z-[-1] transition-opacity duration-1000 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
+          <ParticlesProvider init={particlesInit}>
             <Particles
               id="tsparticles"
               options={particlesOptions}
               className="w-full h-full"
             />
-          </div>
-        )}
+          </ParticlesProvider>
+        </div>
         
         <div className="w-full">
           <div className="flex flex-col items-center justify-center py-12 md:py-0">

@@ -7,24 +7,19 @@
  */
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useMemo } from "react";
 import { motion } from "framer-motion";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
+import Particles, { ParticlesProvider } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import type { ISourceOptions } from "@tsparticles/engine";
+import { type ISourceOptions, type Engine } from "@tsparticles/engine";
 
 import Image from "next/image";
 
-const ServicesHero = () => {
-  const [init, setInit] = useState(false);
+const particlesInit = async (engine: Engine) => {
+  await loadSlim(engine);
+};
 
-  useEffect(() => {
-    initParticlesEngine(async (engine) => {
-      await loadSlim(engine);
-    }).then(() => {
-      setInit(true);
-    });
-  }, []);
+const ServicesHero = () => {
 
   const particlesOptions: ISourceOptions = useMemo(
     () => ({
@@ -65,11 +60,11 @@ const ServicesHero = () => {
       </div>
       
       <div className="legacy-container relative z-10 min-h-[350px] md:min-h-[480px] flex items-center justify-center">
-        {init && (
-          <div className="absolute inset-0 z-[-1]">
+        <div className="absolute inset-0 z-[-1]">
+          <ParticlesProvider init={particlesInit}>
             <Particles id="tsparticles" options={particlesOptions} className="w-full h-full" />
-          </div>
-        )}
+          </ParticlesProvider>
+        </div>
         
         <div className="w-full">
           <div className="flex flex-col items-center justify-center py-12 md:py-0">

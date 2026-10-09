@@ -45,10 +45,10 @@ const HomeParetoSection = () => {
           <div className="w-full max-w-[1000px] mx-auto px-[15px]">
             <SharedReveal direction="up" delay={0.4}>
               <p className="mt-[2.5rem] mb-[30px] text-[#222] max-w-[1000px] mx-auto text-[18px] leading-[1.6]">
-                Stop fighting for the 80% that doesn't matter. Most businesses drown in 
-                "creative clutter"—wasting budgets on vanity metrics and noise. We 
+                Stop fighting for the 80% that doesn&apos;t matter. Most businesses drown in 
+                &quot;creative clutter&quot;—wasting budgets on vanity metrics and noise. We 
                 specialize in identifying your high-velocity levers: the critical 20% of 
-                strategy and design that generates 80% of your growth. We don't just 
+                strategy and design that generates 80% of your growth. We don&apos;t just 
                 design; we engineer efficiency.
               </p>
               {!isExpanded && (

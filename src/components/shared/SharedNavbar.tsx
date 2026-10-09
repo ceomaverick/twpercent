@@ -7,7 +7,7 @@
  */
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
@@ -16,10 +16,12 @@ import { motion, AnimatePresence } from "framer-motion";
 const SharedNavbar = () => {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [prevPath, setPrevPath] = useState(pathname);
 
-  useEffect(() => {
+  if (pathname !== prevPath) {
+    setPrevPath(pathname);
     setIsMenuOpen(false);
-  }, [pathname]);
+  }
 
   const isActive = (path: string) => {
     if (path === "/" && pathname === "/") return true;

@@ -20,7 +20,7 @@ const HomePitchSection = () => {
               <p>
                 Want to reinvigorate your brand, develop a world-class retina-ready
                 website or design a visually stunning brochure, we are the people to
-                have on your speed dial. Let's grab a cup of coffee and talk
+                have on your speed dial. Let&apos;s grab a cup of coffee and talk
                 business.
               </p>
             </SharedReveal>

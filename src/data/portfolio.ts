@@ -710,9 +710,9 @@ export const portfolioData: Record<string, PortfolioCategory> = {
           },
         ],
         gallery: [
-          { src: "/img/folio/exploits/lexus-proactive-ad-01.jpg", className: "col-sm-4" },
-          { src: "/img/folio/exploits/lexus-proactive-ad-02.jpg", className: "col-sm-4" },
-          { src: "/img/folio/exploits/lexus-proactive-ad-03.jpg", className: "col-sm-4" },
+          { src: "/img/folio/exploits/lexus-01.webp", className: "col-sm-4" },
+          { src: "/img/folio/exploits/lexus-02.webp", className: "col-sm-4" },
+          { src: "/img/folio/exploits/lexus-03.webp", className: "col-sm-4" },
         ],
       },
       {
@@ -736,9 +736,9 @@ export const portfolioData: Record<string, PortfolioCategory> = {
           },
         ],
         gallery: [
-          { src: "/img/folio/exploits/aria.jpg", className: "col-sm-12" },
-          { src: "/img/folio/exploits/aria-1.jpg", className: "col-sm-6" },
-          { src: "/img/folio/exploits/aria-2.jpg", className: "col-sm-6" },
+          { src: "/img/folio/exploits/aria.webp", className: "col-sm-12" },
+          { src: "/img/folio/exploits/aria-1.webp", className: "col-sm-6" },
+          { src: "/img/folio/exploits/aria-2.webp", className: "col-sm-6" },
         ],
       },
       {
@@ -761,8 +761,8 @@ export const portfolioData: Record<string, PortfolioCategory> = {
           },
         ],
         gallery: [
-          { src: "/img/folio/exploits/parker-black.jpg", className: "col-sm-6" },
-          { src: "/img/folio/exploits/parker-black-two.jpg", className: "col-sm-6" },
+          { src: "/img/folio/exploits/parker-bulwer-lytton.webp", className: "col-sm-6" },
+          { src: "/img/folio/exploits/parker-blank-paper.webp", className: "col-sm-6" },
         ],
       },
     ],

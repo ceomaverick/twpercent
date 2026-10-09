@@ -82,11 +82,6 @@ const SharedLoader = () => {
           className="fixed inset-0 w-full h-full z-[2000] overflow-hidden bg-[#111] flex flex-col justify-center items-center"
         >
           <div className="relative mb-8">
-            <motion.div 
-              initial={{ width: 0 }}
-              animate={{ width: `${displayPercent}%` }}
-              className="h-[1px] bg-white absolute bottom-[-10px] left-0"
-            />
             <span className="text-white text-6xl md:text-8xl font-thin tracking-tighter tabular-nums">
               {displayPercent}<span className="text-2xl md:text-3xl ml-1">%</span>
             </span>
